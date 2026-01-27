@@ -33,6 +33,15 @@
         <main id="app">
 
             <!-- HOME SECTION -->
+            <!-- 언어 선택 버튼 -->
+            <div class="lang-selector">
+                <button class="lang-btn active" data-lang="ko" onclick="setLanguage('ko')">🇰🇷</button>
+                <button class="lang-btn" data-lang="en" onclick="setLanguage('en')">🇺🇸</button>
+                <button class="lang-btn" data-lang="es" onclick="setLanguage('es')">🇪🇸</button>
+                <button class="lang-btn" data-lang="vi" onclick="setLanguage('vi')">🇻🇳</button>
+                <button class="lang-btn" data-lang="ja" onclick="setLanguage('ja')">🇯🇵</button>
+            </div>
+
             <section id="home" class="glass-card">
                 <h1 class="logo">갓생 능력치 테스트</h1>
                 <p class="subtitle">나의 갓생 농도는 몇 %일까?</p>
@@ -127,6 +136,7 @@
 
     </div>
 
+    <script src="i18n.js"></script>
     <script src="script.js"></script>
 </body>
 

@@ -76,6 +76,40 @@ body::before {
     z-index: 1;
 }
 
+/* 언어 선택 버튼 */
+.lang-selector {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.lang-btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid var(--color-lavender);
+    background: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(200, 160, 255, 0.15);
+}
+
+.lang-btn:hover {
+    transform: scale(1.1);
+    border-color: var(--accent);
+}
+
+.lang-btn.active {
+    border-color: var(--accent);
+    background: var(--color-lavender);
+    box-shadow: 0 4px 12px rgba(184, 124, 255, 0.3);
+}
+
 /* Glassmorphism Card - 더 둥글고 귀여운 느낌 */
 .glass-card {
     background: var(--card-bg);
