@@ -1,0 +1,405 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+:root {
+    /* 파스텔 컬러 팔레트 - 10대/20대 여성 타겟 */
+    --color-lavender: #E8D5FF;
+    --color-lavender-dark: #C9A8FF;
+    --color-mint: #D0F5E8;
+    --color-peach: #FFE5D9;
+    --color-baby-pink: #FFD6E8;
+    --color-cream: #FFF9F0;
+    --color-sky: #D4EDFF;
+
+    /* UI 컬러 */
+    --primary-gradient: linear-gradient(135deg, #E8D5FF 0%, #FFD6E8 50%, #FFE5D9 100%);
+    --btn-gradient: linear-gradient(135deg, #C9A8FF 0%, #FF9EC4 100%);
+    --card-bg: rgba(255, 255, 255, 0.85);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.5);
+    --text-main: #4A4063;
+    --text-sub: #8B7A9E;
+    --accent: #B87CFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gowun Dodum', 'Pretendard', sans-serif;
+    background: var(--primary-gradient);
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: var(--text-main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* 귀여운 배경 데코레이션 */
+body::before {
+    content: "✨ 🌸 💜 🍀 ☁️ 🌷 ✨ 🦋 💫";
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    opacity: 0.4;
+    animation: float 6s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 440px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Glassmorphism Card - 더 둥글고 귀여운 느낌 */
+.glass-card {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 32px;
+    border: var(--glass-border);
+    box-shadow:
+        0 8px 32px rgba(200, 160, 255, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    padding: 36px 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 카드 상단 데코 라인 */
+.glass-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: var(--btn-gradient);
+    border-radius: 0 0 4px 4px;
+}
+
+h1.logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, #B87CFF 0%, #FF6B9D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    color: var(--text-sub);
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+}
+
+.illust {
+    margin: 16px 0;
+    font-size: 4.5rem;
+    animation: bounce 2s ease-in-out infinite;
+    filter: drop-shadow(0 4px 8px rgba(200, 160, 255, 0.3));
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(-12px) scale(1.05);
+    }
+}
+
+/* Buttons - 둥글고 귀여운 스타일 */
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background: var(--btn-gradient);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 6px 20px rgba(184, 124, 255, 0.35);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::after {
+    content: "✨";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(184, 124, 255, 0.45);
+}
+
+.btn:active {
+    transform: scale(0.98) translateY(0);
+}
+
+.btn-option {
+    background: white;
+    color: var(--text-main);
+    border: 2px solid var(--color-lavender);
+    margin-bottom: 12px;
+    text-align: left;
+    padding: 18px 20px;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+.btn-option::after {
+    content: none;
+}
+
+.btn-option:hover {
+    border-color: var(--accent);
+    background: linear-gradient(135deg, #F8F0FF 0%, #FFF0F5 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(184, 124, 255, 0.2);
+}
+
+/* Progress Bar - 귀여운 그라디언트 */
+.progress-container {
+    width: 100%;
+    background: var(--color-lavender);
+    height: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--btn-gradient);
+    width: 0%;
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 10px;
+}
+
+/* Quiz & Result Sections */
+.hidden {
+    display: none;
+}
+
+#q-number {
+    display: inline-block;
+    background: var(--color-lavender);
+    color: var(--accent);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.question-text {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+    line-height: 1.5;
+    color: var(--text-main);
+}
+
+.result-level {
+    font-size: 1rem;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 6px;
+    background: var(--color-lavender);
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+}
+
+.result-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, #B87CFF 0%, #FF6B9D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.result-box {
+    background: linear-gradient(135deg, #FDF8FF 0%, #FFF5F8 100%) !important;
+    border: 1px solid var(--color-lavender) !important;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.result-desc-text {
+    margin-bottom: 15px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: var(--text-main);
+}
+
+.result-divider {
+    border: 0;
+    border-top: 1px solid var(--color-lavender);
+    margin: 15px 0;
+}
+
+.result-detail-text {
+    font-size: 0.9rem;
+    color: var(--text-sub);
+    line-height: 1.8;
+}
+
+/* Content Article for SEO - 귀엽고 깔끔한 카드 */
+.content-article {
+    max-width: 440px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+}
+
+.article-card {
+    background: white;
+    padding: 24px;
+    border-radius: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 16px rgba(200, 160, 255, 0.1);
+    border: 1px solid rgba(232, 213, 255, 0.5);
+    transition: transform 0.2s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-4px);
+}
+
+.article-card h2 {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: var(--accent);
+}
+
+.article-card p {
+    font-size: 0.9rem;
+    color: var(--text-sub);
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.75rem;
+    color: var(--text-sub);
+    padding-bottom: 40px;
+}
+
+footer a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
+
+/* 공유 버튼 스타일 */
+#result .btn[onclick="shareResult()"] {
+    background: linear-gradient(135deg, #4A4063 0%, #6B5B7A 100%) !important;
+}
+
+#result .btn[onclick="restartTest()"] {
+    background: white !important;
+    border: 2px solid var(--color-lavender) !important;
+    color: var(--accent) !important;
+    box-shadow: none !important;
+}
+
+#result .btn[onclick="restartTest()"]::after {
+    content: "🔄";
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-top: 50px;
+    }
+
+    h1.logo {
+        font-size: 1.8rem;
+    }
+}
+
+/* 반짝이 효과 애니메이션 */
+@keyframes sparkle {
+
+    0%,
+    100% {
+        opacity: 0.4;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+/* 선택 시 귀여운 효과 */
+.btn-option:active {
+    animation: pop 0.15s ease-out;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
