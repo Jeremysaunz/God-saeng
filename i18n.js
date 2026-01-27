@@ -161,7 +161,21 @@ const translations = {
                 desc: "숨만 쉬어도 생산성 폭발! 인간 문화재급 갓생러.",
                 detail: "자기관리, 시간관리 완벽!\n💡 미션: 노하우 공유, 갓생 리더 되기"
             }
-        ]
+        ],
+        articles: {
+            whatIs: {
+                title: "💡 갓생(God-saeng)이란?",
+                content: "'신(God)'과 '인생(Life)'을 합친 신조어로, 하루하루 계획적이고 부지런하게 살며 성취감을 느끼는 삶을 의미합니다. 거창한 성공보다는 소소한 습관 들이기—예를 들어 '아침에 이불 개기', '물 2리터 마시기'—부터 시작하는 것이 핵심입니다."
+            },
+            morningRoutine: {
+                title: "🚀 갓생 살기 위한 모닝 루틴 추천 BEST 3",
+                content: "<strong>1. 미라클 모닝 명상</strong><br>일어나자마자 5분간 명상을 하면 코르티솔 수치가 낮아지고 하루의 집중력이 높아집니다.<br><br><strong>2. 이부자리 정리</strong><br>사소해 보이지만, 하루의 첫 번째 과업을 달성했다는 성취감이 뇌를 긍정적으로 자극합니다.<br><br><strong>3. 투두리스트(To-Do List) 작성</strong><br>오늘 꼭 해야 할 일 3가지만 적어보세요. 우선순위가 명확해지면 실행력이 배가 됩니다."
+            },
+            productivityApps: {
+                title: "📱 생산성을 높여주는 필수 앱",
+                content: "뽀모도로 타이머, 노션(Notion), 혹은 간단한 습관 추적(Habit Tracker) 어플리케이션을 활용해보세요. 도구를 적절히 활용하면 의지력을 아낄 수 있습니다."
+            }
+        }
     },
     en: {
         langName: "English",
@@ -324,7 +338,21 @@ const translations = {
                 desc: "You're productive just by breathing! A human productivity treasure.",
                 detail: "Perfect self & time management!\n💡 Mission: Share your know-how, become a leader"
             }
-        ]
+        ],
+        articles: {
+            whatIs: {
+                title: "💡 What is 'God-saeng'?",
+                content: "A Korean slang combining 'God' and 'Life', meaning a life lived with daily planning and diligence, achieving a sense of accomplishment. The key is to start with small habits—like 'making your bed in the morning' or 'drinking 2 liters of water'—rather than grand goals."
+            },
+            morningRoutine: {
+                title: "🚀 Top 3 Morning Routines for a Productive Life",
+                content: "<strong>1. Miracle Morning Meditation</strong><br>5 minutes of meditation right after waking up can lower cortisol levels and boost focus for the day.<br><br><strong>2. Make Your Bed</strong><br>It may seem small, but completing your first task of the day stimulates your brain positively with a sense of achievement.<br><br><strong>3. Write a To-Do List</strong><br>Write just 3 must-do items for today. Clear priorities double your execution power."
+            },
+            productivityApps: {
+                title: "📱 Essential Apps for Productivity",
+                content: "Try using Pomodoro timers, Notion, or simple Habit Tracker apps. Using the right tools can save your willpower."
+            }
+        }
     },
     es: {
         langName: "Español",
@@ -487,7 +515,21 @@ const translations = {
                 desc: "¡Eres productivo solo respirando!",
                 detail: "¡Gestión perfecta!\n💡 Misión: Comparte tu conocimiento"
             }
-        ]
+        ],
+        articles: {
+            whatIs: {
+                title: "💡 ¿Qué es 'God-saeng'?",
+                content: "Un término coreano que combina 'Dios' y 'Vida', que significa vivir cada día con planificación y diligencia, logrando una sensación de logro. La clave es empezar con pequeños hábitos—como 'hacer la cama por la mañana' o 'beber 2 litros de agua'—en lugar de grandes metas."
+            },
+            morningRoutine: {
+                title: "🚀 Las 3 Mejores Rutinas Matutinas para una Vida Productiva",
+                content: "<strong>1. Meditación Miracle Morning</strong><br>5 minutos de meditación al despertar pueden reducir los niveles de cortisol y aumentar la concentración.<br><br><strong>2. Hacer la Cama</strong><br>Puede parecer pequeño, pero completar tu primera tarea del día estimula tu cerebro positivamente.<br><br><strong>3. Escribir una Lista de Tareas</strong><br>Escribe solo 3 cosas que debes hacer hoy. Las prioridades claras duplican tu poder de ejecución."
+            },
+            productivityApps: {
+                title: "📱 Apps Esenciales para la Productividad",
+                content: "Prueba usar temporizadores Pomodoro, Notion o aplicaciones simples de seguimiento de hábitos. Usar las herramientas correctas puede ahorrar tu fuerza de voluntad."
+            }
+        }
     },
     vi: {
         langName: "Tiếng Việt",
@@ -650,7 +692,21 @@ const translations = {
                 desc: "Chỉ cần thở cũng năng suất!",
                 detail: "Quản lý hoàn hảo!\n💡 Nhiệm vụ: Chia sẻ bí quyết"
             }
-        ]
+        ],
+        articles: {
+            whatIs: {
+                title: "💡 'God-saeng' là gì?",
+                content: "Một từ lóng Hàn Quốc kết hợp 'God' (Thần) và 'Life' (Cuộc sống), có nghĩa là sống mỗi ngày với kế hoạch và sự chăm chỉ, đạt được cảm giác thành tựu. Chìa khóa là bắt đầu với những thói quen nhỏ—như 'dọn giường vào buổi sáng' hoặc 'uống 2 lít nước'—thay vì những mục tiêu lớn."
+            },
+            morningRoutine: {
+                title: "🚀 Top 3 Thói Quen Buổi Sáng Cho Cuộc Sống Hiệu Quả",
+                content: "<strong>1. Thiền Miracle Morning</strong><br>5 phút thiền ngay sau khi thức dậy có thể giảm mức cortisol và tăng khả năng tập trung trong ngày.<br><br><strong>2. Dọn Giường</strong><br>Có vẻ nhỏ nhưng hoàn thành nhiệm vụ đầu tiên trong ngày kích thích não bộ tích cực với cảm giác thành tựu.<br><br><strong>3. Viết Danh Sách Công Việc</strong><br>Viết chỉ 3 việc phải làm hôm nay. Ưu tiên rõ ràng sẽ tăng gấp đôi năng lực thực hiện."
+            },
+            productivityApps: {
+                title: "📱 Ứng Dụng Cần Thiết Cho Năng Suất",
+                content: "Hãy thử sử dụng đồng hồ Pomodoro, Notion, hoặc ứng dụng theo dõi thói quen đơn giản. Sử dụng đúng công cụ có thể tiết kiệm ý chí của bạn."
+            }
+        }
     },
     ja: {
         langName: "日本語",
@@ -813,7 +869,21 @@ const translations = {
                 desc: "息をするだけで生産性爆発！人間国宝級。",
                 detail: "自己管理、時間管理完璧！\n💡 ミッション：ノウハウを共有"
             }
-        ]
+        ],
+        articles: {
+            whatIs: {
+                title: "💡 「God-saeng」とは？",
+                content: "「God（神）」と「生活」を組み合わせた韓国のスラングで、毎日計画的で勤勉に生き、達成感を感じる生活を意味します。大きな目標よりも、「朝に布団を畳む」「水を2リットル飲む」などの小さな習慣から始めることがポイントです。"
+            },
+            morningRoutine: {
+                title: "🚀 充実した生活のためのモーニングルーティン TOP 3",
+                content: "<strong>1. ミラクルモーニング瞑想</strong><br>起きてすぐの5分間の瞑想は、コルチゾールレベルを下げ、一日の集中力を高めます。<br><br><strong>2. 布団を畳む</strong><br>小さなことに見えますが、一日の最初のタスクを完了することで、脳に達成感という良い刺激を与えます。<br><br><strong>3. To-Doリストを書く</strong><br>今日やるべきことを3つだけ書いてください。優先順位が明確になれば、実行力が2倍になります。"
+            },
+            productivityApps: {
+                title: "📱 生産性を高める必須アプリ",
+                content: "ポモドーロタイマー、Notion、またはシンプルな習慣トラッカーアプリを活用してみてください。適切なツールを使えば、意志力を節約できます。"
+            }
+        }
     }
 };
 
@@ -838,18 +908,35 @@ function updateLangButtons() {
 // UI 텍스트 업데이트
 function updateUI() {
     const t = translations[currentLang];
-    
+
     // 홈 화면
     document.querySelector('.logo').textContent = t.title;
     document.querySelector('.subtitle').textContent = t.subtitle;
     document.querySelector('#home p[style]').innerHTML = t.description;
     document.querySelector('#home .btn').textContent = t.startBtn;
-    
+
     // 결과 화면
     document.querySelector('#result .subtitle').textContent = t.resultTitle;
     const buttons = document.querySelectorAll('#result .btn');
     if (buttons[0]) buttons[0].textContent = t.shareBtn;
     if (buttons[1]) buttons[1].textContent = t.restartBtn;
+
+    // 아티클 섹션 업데이트
+    if (t.articles) {
+        const articleCards = document.querySelectorAll('.article-card');
+        if (articleCards[0]) {
+            articleCards[0].querySelector('h2').innerHTML = t.articles.whatIs.title;
+            articleCards[0].querySelector('p').innerHTML = t.articles.whatIs.content;
+        }
+        if (articleCards[1]) {
+            articleCards[1].querySelector('h2').innerHTML = t.articles.morningRoutine.title;
+            articleCards[1].querySelector('p').innerHTML = t.articles.morningRoutine.content;
+        }
+        if (articleCards[2]) {
+            articleCards[2].querySelector('h2').innerHTML = t.articles.productivityApps.title;
+            articleCards[2].querySelector('p').innerHTML = t.articles.productivityApps.content;
+        }
+    }
 }
 
 // 현재 언어의 질문 가져오기
