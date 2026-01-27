@@ -10,6 +10,7 @@ const translations = {
         restartBtn: "다시 하기",
         resultTitle: "나의 테스트 결과는?",
         linkCopied: "링크가 복사되었습니다!",
+        footer: { privacy: "개인정보처리방침", terms: "이용약관", contact: "문의" },
         questions: [
             {
                 question: "1. 아침 알람 소리를 들었을 때 나는?",
@@ -187,6 +188,7 @@ const translations = {
         restartBtn: "Try Again",
         resultTitle: "Your Result:",
         linkCopied: "Link copied!",
+        footer: { privacy: "Privacy Policy", terms: "Terms of Service", contact: "Contact" },
         questions: [
             {
                 question: "1. When you hear your morning alarm?",
@@ -364,6 +366,7 @@ const translations = {
         restartBtn: "Intentar de Nuevo",
         resultTitle: "Tu Resultado:",
         linkCopied: "¡Enlace copiado!",
+        footer: { privacy: "Política de Privacidad", terms: "Términos de Servicio", contact: "Contacto" },
         questions: [
             {
                 question: "1. ¿Cuando suena tu alarma?",
@@ -541,6 +544,7 @@ const translations = {
         restartBtn: "Thử Lại",
         resultTitle: "Kết Quả Của Bạn:",
         linkCopied: "Đã sao chép liên kết!",
+        footer: { privacy: "Chính sách Bảo mật", terms: "Điều khoản Dịch vụ", contact: "Liên hệ" },
         questions: [
             {
                 question: "1. Khi bạn nghe tiếng báo thức buổi sáng?",
@@ -718,6 +722,7 @@ const translations = {
         restartBtn: "もう一度",
         resultTitle: "あなたの結果：",
         linkCopied: "リンクをコピーしました！",
+        footer: { privacy: "プライバシーポリシー", terms: "利用規約", contact: "お問い合わせ" },
         questions: [
             {
                 question: "1. 朝のアラームが鳴ったとき？",
@@ -937,6 +942,14 @@ function updateUI() {
             articleCards[2].querySelector('p').innerHTML = t.articles.productivityApps.content;
         }
     }
+
+    // 푸터 업데이트
+    const footerPrivacy = document.getElementById('footer-privacy');
+    const footerTerms = document.getElementById('footer-terms');
+    const footerContact = document.getElementById('footer-contact');
+    if (footerPrivacy) footerPrivacy.textContent = t.footer?.privacy || '개인정보처리방침';
+    if (footerTerms) footerTerms.textContent = t.footer?.terms || '이용약관';
+    if (footerContact) footerContact.textContent = t.footer?.contact || '문의';
 }
 
 // 현재 언어의 질문 가져오기
