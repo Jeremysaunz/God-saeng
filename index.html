@@ -121,12 +121,15 @@
 
             <!-- HOME SECTION -->
             <!-- 언어 선택 버튼 -->
-            <div class="lang-selector">
-                <button class="lang-btn active" data-lang="ko" onclick="setLanguage('ko')">🇰🇷</button>
-                <button class="lang-btn" data-lang="en" onclick="setLanguage('en')">🇺🇸</button>
-                <button class="lang-btn" data-lang="es" onclick="setLanguage('es')">🇪🇸</button>
-                <button class="lang-btn" data-lang="vi" onclick="setLanguage('vi')">🇻🇳</button>
-                <button class="lang-btn" data-lang="ja" onclick="setLanguage('ja')">🇯🇵</button>
+            <!-- 언어 선택 (토글/드롭다운) -->
+            <div class="lang-selector-wrapper">
+                <select id="lang-selector" class="lang-select" onchange="setLanguage(this.value)">
+                    <option value="ko">🇰🇷 한국어</option>
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="vi">🇻🇳 Tiếng Việt</option>
+                    <option value="ja">🇯🇵 日本語</option>
+                </select>
             </div>
 
             <section id="home" class="glass-card">

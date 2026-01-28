@@ -875,14 +875,16 @@ function setLanguage(lang) {
     currentLang = lang;
     localStorage.setItem('godSaengLang', lang);
     updateUI();
-    updateLangButtons();
+    updateLangSelector();
 }
 
 // 언어 버튼 활성화 상태 업데이트
-function updateLangButtons() {
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.lang === currentLang);
-    });
+// 언어 선택 엘리먼트 업데이트
+function updateLangSelector() {
+    const selector = document.getElementById('lang-selector');
+    if (selector) {
+        selector.value = currentLang;
+    }
 }
 
 // UI 텍스트 업데이트
