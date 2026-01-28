@@ -15,8 +15,10 @@ const qNumberEl = document.getElementById('q-number');
 // 결과 요소
 const resultLevelEl = document.getElementById('result-level');
 const resultTitleEl = document.getElementById('result-title');
+const resultTraitsEl = document.getElementById('result-traits'); // New
 const resultDescEl = document.getElementById('result-desc');
-const resultDetailEl = document.getElementById('result-detail');
+const resultAnalysisEl = document.getElementById('result-analysis'); // Renamed from detail
+const resultAdviceEl = document.getElementById('result-advice'); // New
 const resultImgEl = document.getElementById('result-img');
 
 function startTest() {
@@ -73,10 +75,27 @@ function showResult() {
     // UI 업데이트
     resultLevelEl.textContent = finalResult.level ? `${finalResult.level} (Max Lv.999)` : "";
     resultTitleEl.textContent = finalResult.title;
+
+    // Traits (키워드) 처리
+    resultTraitsEl.innerHTML = '';
+    if (finalResult.traits && Array.isArray(finalResult.traits)) {
+        finalResult.traits.forEach(trait => {
+            const span = document.createElement('span');
+            span.classList.add('trait-tag');
+            span.textContent = trait;
+            resultTraitsEl.appendChild(span);
+        });
+    }
+
     resultDescEl.textContent = finalResult.desc;
 
-    // 상세 내용 줄바꿈 처리
-    resultDetailEl.innerHTML = finalResult.detail.replace(/\n/g, '<br>');
+    // 상세 분석 (Analysis)
+    // 기존 데이터 호환성: finalResult.analysis가 없으면 finalResult.detail 사용
+    const analysisText = finalResult.analysis || finalResult.detail || "";
+    resultAnalysisEl.innerHTML = analysisText.replace(/\n/g, '<br>');
+
+    // 조언 (Advice)
+    resultAdviceEl.textContent = finalResult.advice || "Keep going!";
 
     resultImgEl.textContent = finalResult.img;
 

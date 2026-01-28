@@ -142,26 +142,146 @@ const translations = {
             }
         ],
         results: [
-            { minScore: 0, level: "Lv.1", title: "신생아 갓생러", img: "🍼", desc: "응애! 이제 막 눈을 떴어요.", detail: "갓생의 세계에 오신 것을 환영합니다.\n💡 미션: 아침에 눈 뜨면 기지개 켜기부터!" },
-            { minScore: 8, level: "Lv.50", title: "침대 지박령", img: "🛌", desc: "이불 밖은 위험해... 편안함이 최고!", detail: "아직은 에너지를 비축하는 중입니다.\n💡 미션: 하루 한 번 이불 밖으로 탈출하기" },
-            { minScore: 16, level: "Lv.100", title: "작심삼초 마스터", img: "⚡", desc: "결심은 1초 컷, 포기도 LTE급.", detail: "의욕은 넘치지만 지속력이 부족하네요.\n💡 꿀팁: 거창한 계획 대신 '물 마시기'부터!" },
-            { minScore: 24, level: "Lv.150", title: "게으른 완벽주의자", img: "🤔", desc: "계획만 짜다 하루가 다 가버림.", detail: "완벽하지 않아도 괜찮아요. 일단 시작하세요!\n💡 솔루션: 생각 끄고 5초 안에 몸 움직이기" },
-            { minScore: 32, level: "Lv.200", title: "느림의 미학", img: "🐢", desc: "거북이도 갓생이다! 천천히 가도 괜찮아.", detail: "나만의 속도로 꾸준히 가는 것이 중요합니다.\n💡 조언: 남들과 비교하지 말기" },
-            { minScore: 40, level: "Lv.250", title: "간헐적 갓생러", img: "🎢", desc: "삘 받으면 달리고, 아니면 멈춤.", detail: "기복이 심한 편이군요. 꾸준함이 필요해요.\n💡 미션: 루틴 한 가지만 딱 정해서 3일 지키기" },
-            { minScore: 48, level: "Lv.300", title: "생존형 갓생러", img: "🔥", desc: "마감 직전에 초능력을 발휘함.", detail: "벼락치기의 신! 평소에 조금씩 해두면 더 완벽할 텐데.\n💡 팁: 마감일 하루 전을 '진짜 마감'으로 설정" },
-            { minScore: 56, level: "Lv.350", title: "갓생 맛보기", img: "🥄", desc: "이것저것 찍먹해보는 호기심 대장.", detail: "다양한 경험도 좋지만 깊이가 필요할 때.\n💡 챌린지: 한 가지 취미 1달 이상 유지하기" },
-            { minScore: 64, level: "Lv.400", title: "새싹 갓생러", img: "🌱", desc: "광합성 중... 무럭무럭 자라는 중!", detail: "성장의 가능성이 무궁무진합니다.\n💡 부스터: 긍정적인 확언으로 하루 시작하기" },
-            { minScore: 72, level: "Lv.450", title: "성장통 겪는 중", img: "🩹", desc: "아프니까 갓생이다. 시행착오 중.", detail: "실패는 성공의 어머니! 포기하지 마세요.\n💡 위로: 오늘 하루 고생한 나에게 칭찬 한마디" },
-            { minScore: 80, level: "Lv.500", title: "평범한 지구인", img: "🌍", desc: "일과 삶의 조화를 아는 밸런스 장인.", detail: "가장 안정적인 상태입니다. 조금만 더 노력하면 상위권!\n💡 목표: 생산성 앱 하나 활용해보기" },
-            { minScore: 88, level: "Lv.550", title: "성실한 거북이", img: "🏗️", desc: "느리지만 확실하게! 꾸준함이 무기.", detail: "당신의 끈기는 언젠가 빛을 발할 것입니다.\n💡 추천: 매일 감사일기 한 줄 쓰기" },
-            { minScore: 96, level: "Lv.600", title: "계획 실천가", img: "📝", desc: "J형 인간으로 진화 중! 체크리스트 마니아.", detail: "계획한 것을 하나씩 지워가는 쾌감을 즐기시네요.\n💡 다음 단계: 주간/월간 목표 세우기" },
-            { minScore: 104, level: "Lv.650", title: "모닝 루틴 마스터", img: "☀️", desc: "일찍 일어나는 새가 피곤... 아니, 성공한다!", detail: "아침 시간을 지배하는 자가 하루를 지배합니다.\n💡 미션: 미라클 모닝 챌린지 도전" },
-            { minScore: 112, level: "Lv.700", title: "자기계발 덕후", img: "📚", desc: "성장이 취미이자 특기. 배움에 끝은 없다.", detail: "끊임없이 배우는 자세가 멋집니다.\n💡 확장: 배운 것을 블로그나 SNS에 공유하기" },
-            { minScore: 120, level: "Lv.750", title: "시간의 마법사", img: "⏳", desc: "24시간을 48시간처럼 쓰는 효율의 신.", detail: "시간 관리 능력이 탁월하시군요!\n💡 공유: 친구들에게 나만의 시간 관리 팁 전수" },
-            { minScore: 128, level: "Lv.800", title: "프로 갓생러", img: "✨", desc: "폼 미쳤다! 어디서나 빛나는 존재.", detail: "주변 사람들에게 긍정적인 영향을 주고 계시네요.\n💡 리더십: 스터디나 모임장 맡아보기" },
-            { minScore: 136, level: "Lv.850", title: "걸어다니는 자기계발서", img: "📖", desc: "내 뱉는 말이 곧 명언. 인간 명언 제조기.", detail: "당신의 삶 자체가 누군가에게는 교과서입니다.\n💡 기록: 에세이나 회고록 써보기" },
-            { minScore: 144, level: "Lv.900", title: "갓생계의 아이돌", img: "🌟", desc: "팔로워를 부르는 삶. 모두가 당신을 주목해.", detail: "영향력이 큰 만큼 책임감도 따르는 법.\n💡 퍼스널 브랜딩: 나만의 브랜드 만들기" },
-            { minScore: 152, level: "Lv.999", title: "전설의 갓생 황제", img: "👑", desc: "숨만 쉬어도 생산성 폭발! 탈인간급 경지.", detail: "갓생 그 자체. 더 이상 오를 곳이 없...을까요?\n💡 초월: 후배 양성 및 재능 기부" }
+            {
+                minScore: 0, level: "Lv.1", title: "숨쉬기 운동 국가대표", img: "🍼",
+                traits: ["#침대와혼연일체", "#귀차니즘만렙", "#이불밖은위험해"],
+                desc: "침대와 물아일체! 숨 쉬는 것조차 귀찮은 당신.",
+                analysis: "당신에게 '갓생'이란 남의 나라 이야기 혹은 먼 미래의 일입니다. '나중에 해야지'라는 말을 입에 달고 살며, 가장 큰 활동량은 배달 음식 받으러 나가는 순간일지도 모릅니다. 편안함이 최고의 가치인 당신, 하지만 마음 한구석엔 불안함이 자리 잡고 있지 않나요?",
+                advice: "거창한 목표는 금물! 아침에 일어나서 '기지개 켜기' 하나만이라도 성공해봅시다."
+            },
+            {
+                minScore: 8, level: "Lv.50", title: "쇼파 호크아이", img: "🛌",
+                traits: ["#누워서세상구경", "#폰중독초기", "#마음만은갓생"],
+                desc: "세상 돌아가는 건 다 알지만, 몸은 쇼파에 고정!",
+                analysis: "SNS나 유튜브로 갓생 사는 사람들을 보며 대리 만족을 느끼는 타입입니다. '나도 언젠가는...'이라고 생각하지만, 지금 당장 리모컨을 놓거나 스마트폰을 끌 의지는 부족하군요. 정보 수집 능력은 뛰어나니 실행력만 갖추면 됩니다.",
+                advice: "하루에 딱 10분만 스마트폰을 멀리 두고 멍 때리는 시간을 가져보세요."
+            },
+            {
+                minScore: 16, level: "Lv.100", title: "작심삼초 프로 결심러", img: "⚡",
+                traits: ["#열정은3초", "#다이소쇼핑왕", "#내일부터진짜함"],
+                desc: "결심은 누구보다 빠르지만, 포기는 LTE급!",
+                analysis: "새해, 월초, 매주 월요일마다 새로운 계획을 세우는 열정은 인정합니다. 하지만 그 열정이 3초 이상 가지 않는 게 문제네요. 다이어리 꾸미다가 지쳐서 정작 스케줄 관리는 안 하는 스타일일 수도 있습니다.",
+                advice: "계획 세우는 시간을 줄이고, 지금 당장 할 수 있는 아주 작은 일(물 마시기 등)을 하세요."
+            },
+            {
+                minScore: 24, level: "Lv.150", title: "게으른 완벽주의자", img: "🤔",
+                traits: ["#준비만백만년", "#완벽하지않으면안해", "#생각과다"],
+                desc: "완벽하게 할 수 없다면 시작조차 안 하는 고집쟁이.",
+                analysis: "실패에 대한 두려움 때문에 시작을 미루고 있습니다. 막상 하면 잘할 능력이 있는데, 준비 과정에서 모든 에너지를 쏟아붓고 기진맥진해버리네요. 100점짜리 결과물보다는 50점짜리 완료가 낫다는 사실을 기억하세요.",
+                advice: "'일단 대충 하자'를 모토로 삼으세요. 시작이 반이 아니라, 시작이 전부입니다."
+            },
+            {
+                minScore: 32, level: "Lv.200", title: "느림의 미학가", img: "귀여운_거북이",
+                traits: ["#마이웨이", "#천하태평", "#스트레스제로"],
+                desc: "남들이 뛰든 말든 나는 나만의 길을 간다.",
+                analysis: "경쟁 사회에 휩쓸리지 않고 자신의 템포를 유지하는 것은 장점이지만, 때로는 그저 게으름을 낭만으로 포장하고 있는 건 아닌지 돌아볼 필요가 있습니다. 여유로움과 나태함은 종이 한 장 차이거든요.",
+                advice: "오늘 꼭 해야 할 일 '단 하나'는 무슨 일이 있어도 끝내고 주무세요."
+            },
+            {
+                minScore: 40, level: "Lv.250", title: "간헐적 갓생러", img: "🎢",
+                traits: ["#기분파", "#삘받으면밤샘", "#롤러코스터텐션"],
+                desc: "삘 받으면 일주일 치 몰아서 하고, 아니면 시체 모드.",
+                analysis: "당신의 생산성은 주식 차트 같습니다. 삘 받는 날에는 무서울 정도로 몰입하지만, 번아웃이 오면 며칠이고 잠수를 타버리죠. 꾸준함이 없는 열정은 금방 식기 마련입니다. 감정에 휘둘리지 않는 훈련이 필요해요.",
+                advice: "기복을 줄이기 위해 '기분이 안 좋은 날'에도 할 수 있는 루틴을 만드세요."
+            },
+            {
+                minScore: 48, level: "Lv.300", title: "벼락치기 생존 전문가", img: "🔥",
+                traits: ["#마감임박스릴", "#생존형능력", "#초인적인집중력"],
+                desc: "발등에 불이 떨어져야 비로소 초능력이 발휘된다!",
+                analysis: "마감 직전의 스릴을 즐기는 당신! 극한의 상황에서 폭발적인 집중력을 발휘하여 어떻게든 결과물을 만들어냅니다. 하지만 이런 방식은 몸과 마음을 갉아먹습니다. 평소에 20%만 미리 해둬도 삶의 질이 달라질 거예요.",
+                advice: "마감 시간을 하루 당겨서 스스로를 속여보세요. 미래의 나를 구하는 길입니다."
+            },
+            {
+                minScore: 56, level: "Lv.350", title: "찍먹의 달인", img: "🥄",
+                traits: ["#취미수집가", "#얕고넓은지식", "#금방질림"],
+                desc: "세상 모든 것에 호기심이 많지만 깊이가 없다.",
+                analysis: "운동, 요리, 코딩, 외국어... 손댄 건 많은데 끝까지 가본 적이 없군요. 호기심은 훌륭한 자산이지만, 성취감을 느끼기엔 끈기가 부족합니다. 장비 빨 세우기 전에 일단 있는 걸로 한 달만 버텨볼까요?",
+                advice: "새로운 취미를 시작하기 전에, 지금 하고 있는 것 중 하나를 '마스터' 해보세요."
+            },
+            {
+                minScore: 64, level: "Lv.400", title: "새싹 갓생러", img: "🌱",
+                traits: ["#성장가능성무한", "#배우는즐거움", "#아직은미숙"],
+                desc: "이제 막 갓생의 맛을 알아가는 귀여운 새싹.",
+                analysis: "스스로를 바꾸려는 의지가 보입니다! 아직은 서툴고 자주 넘어지지만, 일어나려는 노력이 가상하네요. 지금의 작은 습관들이 모여 거대한 숲을 이룰 겁니다. 남들과 비교하지 말고 어제의 나와 비교하세요.",
+                advice: "성공 일기를 매일 한 줄씩 써보세요. 작은 성취가 자존감을 높여줍니다."
+            },
+            {
+                minScore: 72, level: "Lv.450", title: "성장통 겪는 사춘기", img: "🩹",
+                traits: ["#시행착오", "#의욕과다", "#현타주의"],
+                desc: "열심히 하려다가 제풀에 지쳐 현타가 오는 시기.",
+                analysis: "갓생 살기가 생각보다 힘들다는 걸 깨닫고 있군요. 의욕이 앞서 무리한 계획을 세우다가 실패하고 자책하는 패턴이 반복됩니다. 쉬어가는 것도 갓생의 일부입니다. 자신을 너무 몰아세우지 마세요.",
+                advice: "일요일은 '아무것도 안 하는 날'로 정해서 뇌를 쉬게 해주세요."
+            },
+            {
+                minScore: 80, level: "Lv.500", title: "모범 지구인", img: "🌍",
+                traits: ["#밸런스중시", "#적당한성실함", "#평범이비범"],
+                desc: "일과 삶의 균형을 적절히 맞추는 평범한 능력자.",
+                analysis: "큰 기복 없이 할 일을 해내는 당신은 사회의 소금 같은 존재입니다. 워라밸을 지키며 적당히 성실하게 사는 것, 사실 그게 제일 어려운 거 아시죠? 이제 '적당함'을 넘어 '탁월함'으로 한 발짝 더 나아가 볼까요?",
+                advice: "생산성 앱(Notion, Calendar) 하나를 정복해서 스마트하게 관리해보세요."
+            },
+            {
+                minScore: 88, level: "Lv.550", title: "꾸준함의 거북이", img: "🏗️",
+                traits: ["#성실의아이콘", "#느려도끝까지", "#신뢰도100"],
+                desc: "속도는 중요하지 않아, 멈추지 않는 게 중요해!",
+                analysis: "당신의 가장 큰 무기는 '꾸준함'입니다. 화려하진 않지만 매일 벽돌을 쌓듯 삶을 단단하게 만들고 있군요. 주위 사람들도 당신의 성실함을 인정하고 신뢰합니다. 이제 속도만 조금 붙이면 무서울 게 없겠네요.",
+                advice: "매일 반복되는 루틴에 5분 정도의 '새로운 도전'을 끼워 넣어보세요."
+            },
+            {
+                minScore: 96, level: "Lv.600", title: "체크리스트 덕후", img: "📝",
+                traits: ["#계획형인간", "#네모박스채우기", "#J형인재"],
+                desc: "체크리스트의 빈칸이 채워질 때 카타르시스를 느낀다.",
+                analysis: "계획 없는 삶은 상상할 수 없습니다. 하루를 분 단위로 쪼개 쓰고, 투두 리스트를 지워나가는 쾌감으로 사는군요. 하지만 계획이 틀어졌을 때 받는 스트레스가 큽니다. 유연함을 기르는 것이 다음 단계의 과제입니다.",
+                advice: "계획표에 '유동적 시간'을 20% 정도 비워두는 여유를 가지세요."
+            },
+            {
+                minScore: 104, level: "Lv.650", title: "모닝 루틴 마스터", img: "☀️",
+                traits: ["#아침형인간", "#미라클모닝", "#새벽감성"],
+                desc: "남들이 자는 시간에 이미 하루의 반을 승리했다.",
+                analysis: "아침 시간을 지배하는 자가 하루를 지배한다는 말을 몸소 실천하고 계시군요. 고요한 새벽에 즐기는 나만의 시간은 당신의 에너지 원천입니다. 저녁 시간 활용법까지 마스터한다면 금상첨화겠네요.",
+                advice: "아침의 생산성을 유지하되, 저녁에는 과감하게 로그오프하는 습관을 들이세요."
+            },
+            {
+                minScore: 112, level: "Lv.700", title: "자기개발 중독자", img: "📚",
+                traits: ["#배움에진심", "#자격증콜렉터", "#성장중독"],
+                desc: "배우지 않으면 입안에 가시가 돋는 지적 탐구자.",
+                analysis: "독서, 강의, 스터디... 끊임없이 무언가를 배우고 채워 넣어야 직성이 풀립니다. 당신의 뇌는 항상 섹시하군요. 하지만 인풋(Input)에 비해 아웃풋(Output)이 부족하진 않은지 점검해보세요. 배운 걸 써먹어야 진짜 내 것입니다.",
+                advice: "오늘 배운 내용을 블로그나 SNS에 요약해서 '공유'하는 습관을 들이세요."
+            },
+            {
+                minScore: 120, level: "Lv.750", title: "시간의 마술사", img: "⏳",
+                traits: ["#효율끝판왕", "#멀티태스킹", "#24시간이모자라"],
+                desc: "같은 24시간인데 이 사람만 48시간처럼 산다.",
+                analysis: "시간을 허투루 쓰는 법이 없습니다. 자투리 시간 활용의 달인이며, 동선을 최소화하는 등 효율성에 미친(?) 모습을 보여줍니다. 가끔은 너무 타이트한 삶이 숨 막힐 수 있으니 '멍 때리는 시간'도 스케줄에 넣어주세요.",
+                advice: "효율을 위해 포기한 '감성'과 '낭만'을 주말에는 챙겨주세요."
+            },
+            {
+                minScore: 128, level: "Lv.800", title: "본투비 갓생러", img: "✨",
+                traits: ["#태생이부지런", "#긍정에너지", "#걸어다니는동기부여"],
+                desc: "노력하지 않아도 그냥 갓생 살아지는 축복받은 유전자.",
+                analysis: "주변 사람들이 '넌 어떻게 그렇게 살아?'라고 묻지 않나요? 당신에게 갓생은 특별한 노력이 아니라 그냥 '숨 쉬는 것'과 같습니다. 긍정적인 에너지가 넘쳐흘러 주변까지 밝게 만듭니다. 당신은 이미 누군가의 롤모델입니다.",
+                advice: "당신의 노하우를 주변에 전파하고 이끌어주는 리더 역할을 해보세요."
+            },
+            {
+                minScore: 136, level: "Lv.850", title: "걸어 다니는 명언 제조기", img: "📖",
+                traits: ["#인사이트", "#통찰력", "#인생2회차"],
+                desc: "말하는 한 마디 한 마디가 뼈를 때리는 인생 멘토.",
+                analysis: "단순히 부지런한 것을 넘어, 삶을 관통하는 통찰력을 지녔습니다. 실패와 성공을 모두 겸허히 받아들이며, 내면이 단단하게 꽉 차 있군요. 당신의 경험과 지혜는 돈으로도 살 수 없는 귀중한 자산입니다.",
+                advice: "에세이를 쓰거나 뉴스레터를 발행해서 당신의 철학을 세상에 알리세요."
+            },
+            {
+                minScore: 144, level: "Lv.900", title: "갓생계의 아이돌", img: "🌟",
+                traits: ["#영향력갑", "#팬덤보유", "#트렌드세터"],
+                desc: "존재만으로 팔로워를 몰고 다니는 갓생 인플루언서.",
+                analysis: "당신의 라이프스타일 자체가 브랜드입니다. 당신이 쓰는 물건, 당신이 가는 곳, 당신의 습관을 사람들이 따라 하고 싶어 합니다. 선한 영향력을 행사할 수 있는 위치에 있으니, 그 힘을 사회를 위해 써보는 건 어떨까요?",
+                advice: "퍼스널 브랜딩을 강화하고, 커뮤니티를 만들어 갓생 문화를 주도하세요."
+            },
+            {
+                minScore: 152, level: "Lv.999", title: "전설의 갓생 황제", img: "👑",
+                traits: ["#인간문화재", "#탈인간급", "#갓생그자체"],
+                desc: "숨만 쉬어도 생산성이 폭발하는 경지. 갓생의 신.",
+                analysis: "축하합니다. 더 이상 올라갈 곳이 없습니다. 자기관리, 시간관리, 멘탈관리 모든 면에서 완벽에 가깝습니다. 이제는 자신을 넘어 타인의 성장을 돕고 세상을 더 나은 곳으로 만드는 데 기여할 단계입니다. 존경합니다!",
+                advice: "재능 기부나 멘토링을 통해 다음 세대의 갓생러들을 키워주세요."
+            }
         ],
         faq: {
             title: "💡 자주 묻는 질문 (FAQ)",
@@ -315,26 +435,146 @@ const translations = {
             }
         ],
         results: [
-            { minScore: 0, level: "Lv.1", title: "Newborn God-saeng", img: "🍼", desc: "Goo-goo gaga! Just opened your eyes.", detail: "Welcome to the world of productivity.\n💡 Mission: Stretch as soon as you wake up!" },
-            { minScore: 8, level: "Lv.50", title: "Bed Ghost", img: "🛌", desc: "Outside is dangerous... Comfort is key!", detail: "You are conserving energy right now.\n💡 Mission: Escape the blanket once a day" },
-            { minScore: 16, level: "Lv.100", title: "Three-Day Monk", img: "⚡", desc: "Resolutions last 3 seconds. Giving up is LTE speed.", detail: "Full of motivation but lacking persistence.\n💡 Tip: Start with 'drinking water' instead of grand plans!" },
-            { minScore: 24, level: "Lv.150", title: "Lazy Perfectionist", img: "🤔", desc: "Planning all day, ending up doing nothing.", detail: "Done is better than perfect. Just start!\n💡 Solution: Stop thinking and move within 5 seconds" },
-            { minScore: 32, level: "Lv.200", title: "Aesthetics of Slowness", img: "🐢", desc: "Even turtles finish the race! Slow is okay.", detail: "Going at your own pace is what matters.\n💡 Advice: Don't compare yourself to others" },
-            { minScore: 40, level: "Lv.250", title: "Intermittent Achiever", img: "🎢", desc: "Runs when inspired, stops when not.", detail: "A bit inconsistent. You need routine.\n💡 Mission: Stick to just one routine for 3 days" },
-            { minScore: 48, level: "Lv.300", title: "Survivalist", img: "🔥", desc: "Superpowers activate right before the deadline.", detail: "God of cramming! Would be perfect if done earlier.\n💡 Tip: Set your 'real deadline' one day prior" },
-            { minScore: 56, level: "Lv.350", title: "The Taster", img: "🥄", desc: "Curious about everything, committed to nothing.", detail: "Experience is good, but depth is needed.\n💡 Challenge: Keep one hobby for over a month" },
-            { minScore: 64, level: "Lv.400", title: "Sprout God-saeng", img: "🌱", desc: "Photosynthesizing... Growing day by day!", detail: "Your potential for growth is limitless.\n💡 Booster: Start the day with positive affirmations" },
-            { minScore: 72, level: "Lv.450", title: "Growing Pains", img: "🩹", desc: "No pain, no gain. Going through trial and error.", detail: "Failure is the mother of success! Don't give up.\n💡 Comfort: Praise yourself for today's hard work" },
-            { minScore: 80, level: "Lv.500", title: "Ordinary Earthling", img: "🌍", desc: "Master of work-life balance.", detail: "Most stable state. A little more effort for the top!\n💡 Goal: Try using one productivity app" },
-            { minScore: 88, level: "Lv.550", title: "Consistent Turtle", img: "🏗️", desc: "Slow but sure! Consistency is your weapon.", detail: "Your persistence will shine someday.\n💡 Recommend: Write one line of gratitude journal daily" },
-            { minScore: 96, level: "Lv.600", title: "Action Planner", img: "📝", desc: "Evolving into J-type! Checklist maniac.", detail: "You enjoy the thrill of checking off tasks.\n💡 Next Step: Set weekly/monthly goals" },
-            { minScore: 104, level: "Lv.650", title: "Morning Routine Master", img: "☀️", desc: "The early bird gets... tired? No, successful!", detail: "He who conquers the morning conquers the day.\n💡 Mission: Challenge the Miracle Morning" },
-            { minScore: 112, level: "Lv.700", title: "Self-Improvement Geek", img: "📚", desc: "Growth is a hobby. Learning never ends.", detail: "Your attitude towards learning is cool.\n💡 Expand: Share what you learned on social media" },
-            { minScore: 120, level: "Lv.750", title: "Time Wizard", img: "⏳", desc: "Using 24 hours like 48 hours. Efficiency god.", detail: "Excellent time management skills!\n💡 Share: Teach your time management tips to friends" },
-            { minScore: 128, level: "Lv.800", title: "Pro God-saeng", img: "✨", desc: "Crazy form! Shining wherever you go.", detail: "You're positively influencing those around you.\n💡 Leadership: Lead a study group or meeting" },
-            { minScore: 136, level: "Lv.850", title: "Walking Self-Help Book", img: "📖", desc: "Every word is a quote. Walking wisdom.", detail: "Your life itself is a textbook for someone.\n💡 Record: Write essays or a memoir" },
-            { minScore: 144, level: "Lv.900", title: "God-saeng Idol", img: "🌟", desc: "A life that attracts followers. All eyes on you.", detail: "With great influence comes great responsibility.\n💡 Branding: Build your personal brand" },
-            { minScore: 152, level: "Lv.999", title: "Legendary Emperor", img: "👑", desc: "Productivity explodes just by breathing!", detail: "God-saeng itself. Is there any higher place?\n💡 Transcendence: Mentor juniors and donate talents" }
+            {
+                minScore: 0, level: "Lv.1", title: "National Breathing Champion", img: "🍼",
+                traits: ["#BedIsMyLife", "#LazinessMax", "#OutsideIsDanger"],
+                desc: "One with the bed! Even breathing feels like a workout.",
+                analysis: "Productivity is a concept from a distant galaxy for you. Your favorite phrase is 'I'll do it later,' and your peak physical activity is walking to the door for food delivery. Comfort is your top value, but isn't there a tiny bit of anxiety hiding in the corner?",
+                advice: "No big goals! Just try to 'stretch' once you wake up."
+            },
+            {
+                minScore: 8, level: "Lv.50", title: "Couch Hawk-eye", img: "🛌",
+                traits: ["#LyingDownWorldView", "#PhoneAddict", "#MindsetOnlyPro"],
+                desc: "You know everything happening in the world, but your body is glued to the couch!",
+                analysis: "You get vicarious satisfaction watching productive people on YouTube. You think 'I will one day...' but lack the willpower to put down the remote or phone right now. Your information gathering skills are top-notch; now you just need execution.",
+                advice: "Try putting your phone away for just 10 minutes a day and do nothing."
+            },
+            {
+                minScore: 16, level: "Lv.100", title: "3-Second Resolution Master", img: "⚡",
+                traits: ["#PassionLasts3Sec", "#ShoppingSpree", "#StartTomorrow"],
+                desc: "Resolutions are faster than light, giving up is LTE speed!",
+                analysis: "We acknowledge your passion for making plans every New Year and every Monday. The problem is that passion doesn't last more than 3 seconds. You might be the type to get exhausted decorating your planner and end up doing nothing.",
+                advice: "Less planning, more doing. Start with something tiny like 'drinking water'."
+            },
+            {
+                minScore: 24, level: "Lv.150", title: "Lazy Perfectionist", img: "🤔",
+                traits: ["#PrepTakesForever", "#PerfectOrNothing", "#Overthinking"],
+                desc: "If it can't be perfect, I won't even start.",
+                analysis: "Fear of failure is holding you back. You have the ability to do well, but you pour all your energy into the preparation phase and burn out. Remember, a finished 50-point result is better than a 0-point perfect plan.",
+                advice: "Make your motto 'Just do it roughly.' Starting is not half, it's everything."
+            },
+            {
+                minScore: 32, level: "Lv.200", title: "Aesthete of Slowness", img: "🐢",
+                traits: ["#MyWay", "#Carefree", "#ZeroStress"],
+                desc: "Let others run, I walk my own path.",
+                analysis: "Keeping your own tempo in a competitive society is a strength, but ask yourself if you're just packaging laziness as romance. There is a fine line between being relaxed and being slothful.",
+                advice: "Finish 'just one' essential task today no matter what before sleeping."
+            },
+            {
+                minScore: 40, level: "Lv.250", title: "Intermittent Achiever", img: "🎢",
+                traits: ["#Moody", "#NightOwlMode", "#Rollercoaster"],
+                desc: "Bursts of energy for a week, then corpse mode.",
+                analysis: "Your productivity is like a volatile stock market. When inspired, you're scary focused, but burnout hits hard. Passion without consistency cools down quickly. You need training to not be swayed by emotions.",
+                advice: "Create a routine you can do even on 'bad days' to reduce fluctuations."
+            },
+            {
+                minScore: 48, level: "Lv.300", title: "Deadline Survivor", img: "🔥",
+                traits: ["#DeadlineThrill", "#SurvivalInstinct", "#SuperFocus"],
+                desc: "Superpowers verify only when feet are on fire!",
+                analysis: "You enjoy the thrill of the deadline! You unleash explosive focus in extreme situations. But this lifestyle eats away at your body and mind. Doing just 20% in advance would change your quality of life.",
+                advice: "Trick yourself by setting the deadline one day early. Save your future self."
+            },
+            {
+                minScore: 56, level: "Lv.350", title: "The Taster", img: "🥄",
+                traits: ["#HobbyCollector", "#ShallowKnowledge", "#BoredEasily"],
+                desc: "Curious about everything, committed to nothing.",
+                analysis: "Exercise, cooking, coding, languages... You've touched many things but haven't mastered any. Curiosity is a great asset, but you lack the grit to feel achievement. Try sticking with what you have for just a month.",
+                advice: "Before starting a new hobby, try to 'master' one you're already doing."
+            },
+            {
+                minScore: 64, level: "Lv.400", title: "Sprout Achiever", img: "🌱",
+                traits: ["#InfinitePotential", "#JoyOfLearning", "#StillClumsy"],
+                desc: "A cute sprout just tasting the productive life.",
+                analysis: "We see your will to change! You are still clumsy and fall often, but your effort to get up is commendable. Small habits now will form a giant forest. Don't compare yourself to others, compare with yesterday's you.",
+                advice: "Write one line of a 'Success Journal' daily. Small wins boost self-esteem."
+            },
+            {
+                minScore: 72, level: "Lv.450", title: "Puberty of Growth", img: "🩹",
+                traits: ["#TrialAndError", "#OverAmbitious", "#RealityCheck"],
+                desc: "Trying too hard and getting exhausted.",
+                analysis: "You realize living productively is harder than it looks. You tend to set overly ambitious plans, fail, and blame yourself. Resting is also part of productivity. Don't push yourself too hard.",
+                advice: "Designate Sunday as a 'Do Nothing Day' to let your brain rest."
+            },
+            {
+                minScore: 80, level: "Lv.500", title: "Model Earthling", img: "🌍",
+                traits: ["#BalanceFirst", "#ModeratelyDiligent", "#OrdinaryIsExtraordinary"],
+                desc: "A master of work-life balance.",
+                analysis: "You accomplish tasks without major ups and downs, like the salt of society. Living diligently while keeping work-life balance is actually the hardest thing. Now, shall we take a step further from 'moderate' to 'excellent'?",
+                advice: "Conquer one productivity app (Notion, Calendar) to manage smartly."
+            },
+            {
+                minScore: 88, level: "Lv.550", title: "Consistent Turtle", img: "🏗️",
+                traits: ["#IconOfDiligence", "#SlowButSure", "#Trust100"],
+                desc: "Speed doesn't matter, not stopping does!",
+                analysis: "Your greatest weapon is 'consistency'. It's not flashy, but you build your life solidly like stacking bricks. People around you trust your diligence. If you add a little speed, you'll be unstoppable.",
+                advice: "Insert a 5-minute 'new challenge' into your daily routine."
+            },
+            {
+                minScore: 96, level: "Lv.600", title: "Checklist Maniac", img: "📝",
+                traits: ["#Planner", "#FillTheBox", "#JTypeTalent"],
+                desc: "You feel catharsis when filling checklist boxes.",
+                analysis: "You can't imagine life without a plan. You split your day by the minute and live for the joy of crossing off to-do lists. But you get stressed when plans go wrong. Flexibility is your next assignment.",
+                advice: "Leave about 20% of your schedule empty as 'buffer time'."
+            },
+            {
+                minScore: 104, level: "Lv.650", title: "Morning Routine Master", img: "☀️",
+                traits: ["#EarlyBird", "#MiracleMorning", "#DawnVibes"],
+                desc: "You've won half the day while others sleep.",
+                analysis: "You practice the saying 'He who conquers the morning conquers the day.' Calculating your own time in the quiet dawn is your energy source. Mastering evening routines would be the cherry on top.",
+                advice: "Maintain morning productivity, but learn to strictly 'log off' in the evening."
+            },
+            {
+                minScore: 112, level: "Lv.700", title: "Self-Improvement Geek", img: "📚",
+                traits: ["#SeriousAboutLearning", "#CertCollector", "#GrowthAddict"],
+                desc: "An intellectual explorer who feels uneasy without learning.",
+                analysis: "Reading, lectures, study groups... You must constantly learn to feel satisfied. Your brain is sexy. But check if your Input outweighs your Output. Using what you learned makes it truly yours.",
+                advice: "Summarize and 'share' what you learned today on a blog or social media."
+            },
+            {
+                minScore: 120, level: "Lv.750", title: "Time Wizard", img: "⏳",
+                traits: ["#EfficiencyKing", "#Multitasking", "#24HoursNotEnough"],
+                desc: "Living 48 hours in a 24-hour day.",
+                analysis: "You never waste time. You are a master of using spare moments and minimizing movement paths. Sometimes a too tight life can be suffocating, so schedule some 'spacing out time' too.",
+                advice: "Take care of 'emotion' and 'romance' on weekends, which you might sacrifice for efficiency."
+            },
+            {
+                minScore: 128, level: "Lv.800", title: "Born-to-be Achiever", img: "✨",
+                traits: ["#NaturallyDiligent", "#PositiveEnergy", "#WalkingMotivation"],
+                desc: "Blessed genes that live productively without trying.",
+                analysis: "Don't people ask 'How do you live like that?' For you, productivity is not effort, it's like breathing. Your positive energy brightens the surroundings. You are already someone's role model.",
+                advice: "Spread your know-how and become a leader who guides others."
+            },
+            {
+                minScore: 136, level: "Lv.850", title: "Walking Quote Machine", img: "📖",
+                traits: ["#Insight", "#Wisdom", "#SecondLife"],
+                desc: "Every word you speak hits home. A life mentor.",
+                analysis: "Beyond just being diligent, you have insight that penetrates life. You accept both failure and success humbly, and your inner self is solid. Your experience and wisdom are assets money can't buy.",
+                advice: "Write essays or publish a newsletter to share your philosophy with the world."
+            },
+            {
+                minScore: 144, level: "Lv.900", title: "God-saeng Idol", img: "🌟",
+                traits: ["#Influential", "#Fandom", "#Trendsetter"],
+                desc: "An influencer who attracts followers just by existing.",
+                analysis: "Your lifestyle itself is a brand. People want to copy what you use, where you go, and your habits. You have the position to exercise good influence, so why not use that power for society?",
+                advice: "Strengthen personal branding and build a community to lead the culture."
+            },
+            {
+                minScore: 152, level: "Lv.999", title: "Legendary Emperor", img: "👑",
+                traits: ["#HumanTreasure", "#BeyondHuman", "#GodSaengItself"],
+                desc: "Productivity explodes just by breathing. The God of Life.",
+                analysis: "Congratulations. There is no higher place to go. Perfect in self-management, time management, and mental care. Now contribute to helping others grow and making the world better. Respect!",
+                advice: "Mentor the next generation through talent donation."
+            }
         ],
         faq: {
             title: "💡 Frequently Asked Questions (FAQ)",

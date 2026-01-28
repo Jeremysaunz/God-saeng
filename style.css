@@ -299,6 +299,26 @@ h1.logo {
     line-height: 1.3;
 }
 
+/* Result Content Enhancement */
+.traits-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.trait-tag {
+    background: rgba(212, 255, 0, 0.1);
+    border: 1px solid var(--neon-lime);
+    color: var(--neon-lime);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 0 5px rgba(212, 255, 0, 0.2);
+}
+
 .result-box {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -344,10 +364,35 @@ h1.logo {
     margin: 15px 0;
 }
 
-.result-detail-text {
+.result-analysis-text {
     font-size: 0.95rem;
-    line-height: 1.6;
-    color: #CCC;
+    line-height: 1.7;
+    color: #DDD;
+    margin-bottom: 20px;
+    text-align: justify;
+    word-break: keep-all;
+}
+
+.advice-box {
+    background: rgba(157, 0, 255, 0.1);
+    border-left: 3px solid var(--neon-purple);
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.advice-icon {
+    font-size: 1.2rem;
+}
+
+.result-advice-text {
+    font-size: 0.9rem;
+    color: #FFF;
+    line-height: 1.5;
+    font-weight: 500;
 }
 
 /* Result Buttons */
