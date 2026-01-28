@@ -142,26 +142,26 @@ const translations = {
             }
         ],
         results: [
-            {
-                minScore: 0, level: "Lv.1", title: "침대와 한몸 눕방 마스터", img: "😴",
-                desc: "갓생보다는 '편안함'과 '여유'를 1순위로 두는 타입입니다.",
-                detail: "당신의 '갓생력'은 현재 충전이 필요한 상태입니다.\n💡 추천 챌린지: 아침에 이불 개기, 물 1L 마시기"
-            },
-            {
-                minScore: 50, level: "Lv.30", title: "의욕 충만 작심삼일 탈출가", img: "🐣",
-                desc: "마음만은 이미 갓생러! 실천이 조금 아쉬운 타입이네요.",
-                detail: "시작이 반이라는 말이 딱 어울리는 당신.\n💡 솔루션: 하루 3가지만 정하기, 완벽보다 완료!"
-            },
-            {
-                minScore: 100, level: "Lv.70", title: "효율 추구 스마트 갓생러", img: "✨",
-                desc: "일과 삶의 밸런스를 아는 능력자!",
-                detail: "효율적으로 하루를 보내는 당신.\n💡 부스터: 아웃풋(기록/공유) 만들기, 사이드 프로젝트 시작"
-            },
-            {
-                minScore: 135, level: "Lv.999", title: "전설의 갓생 황제", img: "👑",
-                desc: "숨만 쉬어도 생산성 폭발! 인간 문화재급 갓생러.",
-                detail: "자기관리, 시간관리 완벽!\n💡 미션: 노하우 공유, 갓생 리더 되기"
-            }
+            { minScore: 0, level: "Lv.1", title: "신생아 갓생러", img: "🍼", desc: "응애! 이제 막 눈을 떴어요.", detail: "갓생의 세계에 오신 것을 환영합니다.\n💡 미션: 아침에 눈 뜨면 기지개 켜기부터!" },
+            { minScore: 8, level: "Lv.50", title: "침대 지박령", img: "🛌", desc: "이불 밖은 위험해... 편안함이 최고!", detail: "아직은 에너지를 비축하는 중입니다.\n💡 미션: 하루 한 번 이불 밖으로 탈출하기" },
+            { minScore: 16, level: "Lv.100", title: "작심삼초 마스터", img: "⚡", desc: "결심은 1초 컷, 포기도 LTE급.", detail: "의욕은 넘치지만 지속력이 부족하네요.\n💡 꿀팁: 거창한 계획 대신 '물 마시기'부터!" },
+            { minScore: 24, level: "Lv.150", title: "게으른 완벽주의자", img: "🤔", desc: "계획만 짜다 하루가 다 가버림.", detail: "완벽하지 않아도 괜찮아요. 일단 시작하세요!\n💡 솔루션: 생각 끄고 5초 안에 몸 움직이기" },
+            { minScore: 32, level: "Lv.200", title: "느림의 미학", img: "🐢", desc: "거북이도 갓생이다! 천천히 가도 괜찮아.", detail: "나만의 속도로 꾸준히 가는 것이 중요합니다.\n💡 조언: 남들과 비교하지 말기" },
+            { minScore: 40, level: "Lv.250", title: "간헐적 갓생러", img: "🎢", desc: "삘 받으면 달리고, 아니면 멈춤.", detail: "기복이 심한 편이군요. 꾸준함이 필요해요.\n💡 미션: 루틴 한 가지만 딱 정해서 3일 지키기" },
+            { minScore: 48, level: "Lv.300", title: "생존형 갓생러", img: "🔥", desc: "마감 직전에 초능력을 발휘함.", detail: "벼락치기의 신! 평소에 조금씩 해두면 더 완벽할 텐데.\n💡 팁: 마감일 하루 전을 '진짜 마감'으로 설정" },
+            { minScore: 56, level: "Lv.350", title: "갓생 맛보기", img: "🥄", desc: "이것저것 찍먹해보는 호기심 대장.", detail: "다양한 경험도 좋지만 깊이가 필요할 때.\n💡 챌린지: 한 가지 취미 1달 이상 유지하기" },
+            { minScore: 64, level: "Lv.400", title: "새싹 갓생러", img: "🌱", desc: "광합성 중... 무럭무럭 자라는 중!", detail: "성장의 가능성이 무궁무진합니다.\n💡 부스터: 긍정적인 확언으로 하루 시작하기" },
+            { minScore: 72, level: "Lv.450", title: "성장통 겪는 중", img: "🩹", desc: "아프니까 갓생이다. 시행착오 중.", detail: "실패는 성공의 어머니! 포기하지 마세요.\n💡 위로: 오늘 하루 고생한 나에게 칭찬 한마디" },
+            { minScore: 80, level: "Lv.500", title: "평범한 지구인", img: "🌍", desc: "일과 삶의 조화를 아는 밸런스 장인.", detail: "가장 안정적인 상태입니다. 조금만 더 노력하면 상위권!\n💡 목표: 생산성 앱 하나 활용해보기" },
+            { minScore: 88, level: "Lv.550", title: "성실한 거북이", img: "🏗️", desc: "느리지만 확실하게! 꾸준함이 무기.", detail: "당신의 끈기는 언젠가 빛을 발할 것입니다.\n💡 추천: 매일 감사일기 한 줄 쓰기" },
+            { minScore: 96, level: "Lv.600", title: "계획 실천가", img: "📝", desc: "J형 인간으로 진화 중! 체크리스트 마니아.", detail: "계획한 것을 하나씩 지워가는 쾌감을 즐기시네요.\n💡 다음 단계: 주간/월간 목표 세우기" },
+            { minScore: 104, level: "Lv.650", title: "모닝 루틴 마스터", img: "☀️", desc: "일찍 일어나는 새가 피곤... 아니, 성공한다!", detail: "아침 시간을 지배하는 자가 하루를 지배합니다.\n💡 미션: 미라클 모닝 챌린지 도전" },
+            { minScore: 112, level: "Lv.700", title: "자기계발 덕후", img: "📚", desc: "성장이 취미이자 특기. 배움에 끝은 없다.", detail: "끊임없이 배우는 자세가 멋집니다.\n💡 확장: 배운 것을 블로그나 SNS에 공유하기" },
+            { minScore: 120, level: "Lv.750", title: "시간의 마법사", img: "⏳", desc: "24시간을 48시간처럼 쓰는 효율의 신.", detail: "시간 관리 능력이 탁월하시군요!\n💡 공유: 친구들에게 나만의 시간 관리 팁 전수" },
+            { minScore: 128, level: "Lv.800", title: "프로 갓생러", img: "✨", desc: "폼 미쳤다! 어디서나 빛나는 존재.", detail: "주변 사람들에게 긍정적인 영향을 주고 계시네요.\n💡 리더십: 스터디나 모임장 맡아보기" },
+            { minScore: 136, level: "Lv.850", title: "걸어다니는 자기계발서", img: "📖", desc: "내 뱉는 말이 곧 명언. 인간 명언 제조기.", detail: "당신의 삶 자체가 누군가에게는 교과서입니다.\n💡 기록: 에세이나 회고록 써보기" },
+            { minScore: 144, level: "Lv.900", title: "갓생계의 아이돌", img: "🌟", desc: "팔로워를 부르는 삶. 모두가 당신을 주목해.", detail: "영향력이 큰 만큼 책임감도 따르는 법.\n💡 퍼스널 브랜딩: 나만의 브랜드 만들기" },
+            { minScore: 152, level: "Lv.999", title: "전설의 갓생 황제", img: "👑", desc: "숨만 쉬어도 생산성 폭발! 탈인간급 경지.", detail: "갓생 그 자체. 더 이상 오를 곳이 없...을까요?\n💡 초월: 후배 양성 및 재능 기부" }
         ],
         faq: {
             title: "💡 자주 묻는 질문 (FAQ)",
@@ -315,26 +315,26 @@ const translations = {
             }
         ],
         results: [
-            {
-                minScore: 0, level: "Lv.1", title: "Couch Potato Master", img: "😴",
-                desc: "You prioritize 'comfort' and 'relaxation' over productivity.",
-                detail: "Your 'productivity power' needs recharging.\n💡 Try: Make bed in morning, drink 1L water"
-            },
-            {
-                minScore: 50, level: "Lv.30", title: "Motivated but Inconsistent", img: "🐣",
-                desc: "Your heart is ready! Execution needs a bit more work.",
-                detail: "'Starting is half the battle' - that's you.\n💡 Solution: Set only 3 daily goals, done > perfect"
-            },
-            {
-                minScore: 100, level: "Lv.70", title: "Smart Productivity Pro", img: "✨",
-                desc: "You know work-life balance!",
-                detail: "You spend your days efficiently.\n💡 Boost: Create outputs (writing/sharing), start side projects"
-            },
-            {
-                minScore: 135, level: "Lv.999", title: "Legendary Productivity Emperor", img: "👑",
-                desc: "You're productive just by breathing! A human productivity treasure.",
-                detail: "Perfect self & time management!\n💡 Mission: Share your know-how, become a leader"
-            }
+            { minScore: 0, level: "Lv.1", title: "Newborn God-saeng", img: "🍼", desc: "Goo-goo gaga! Just opened your eyes.", detail: "Welcome to the world of productivity.\n💡 Mission: Stretch as soon as you wake up!" },
+            { minScore: 8, level: "Lv.50", title: "Bed Ghost", img: "🛌", desc: "Outside is dangerous... Comfort is key!", detail: "You are conserving energy right now.\n💡 Mission: Escape the blanket once a day" },
+            { minScore: 16, level: "Lv.100", title: "Three-Day Monk", img: "⚡", desc: "Resolutions last 3 seconds. Giving up is LTE speed.", detail: "Full of motivation but lacking persistence.\n💡 Tip: Start with 'drinking water' instead of grand plans!" },
+            { minScore: 24, level: "Lv.150", title: "Lazy Perfectionist", img: "🤔", desc: "Planning all day, ending up doing nothing.", detail: "Done is better than perfect. Just start!\n💡 Solution: Stop thinking and move within 5 seconds" },
+            { minScore: 32, level: "Lv.200", title: "Aesthetics of Slowness", img: "🐢", desc: "Even turtles finish the race! Slow is okay.", detail: "Going at your own pace is what matters.\n💡 Advice: Don't compare yourself to others" },
+            { minScore: 40, level: "Lv.250", title: "Intermittent Achiever", img: "🎢", desc: "Runs when inspired, stops when not.", detail: "A bit inconsistent. You need routine.\n💡 Mission: Stick to just one routine for 3 days" },
+            { minScore: 48, level: "Lv.300", title: "Survivalist", img: "🔥", desc: "Superpowers activate right before the deadline.", detail: "God of cramming! Would be perfect if done earlier.\n💡 Tip: Set your 'real deadline' one day prior" },
+            { minScore: 56, level: "Lv.350", title: "The Taster", img: "🥄", desc: "Curious about everything, committed to nothing.", detail: "Experience is good, but depth is needed.\n💡 Challenge: Keep one hobby for over a month" },
+            { minScore: 64, level: "Lv.400", title: "Sprout God-saeng", img: "🌱", desc: "Photosynthesizing... Growing day by day!", detail: "Your potential for growth is limitless.\n💡 Booster: Start the day with positive affirmations" },
+            { minScore: 72, level: "Lv.450", title: "Growing Pains", img: "🩹", desc: "No pain, no gain. Going through trial and error.", detail: "Failure is the mother of success! Don't give up.\n💡 Comfort: Praise yourself for today's hard work" },
+            { minScore: 80, level: "Lv.500", title: "Ordinary Earthling", img: "🌍", desc: "Master of work-life balance.", detail: "Most stable state. A little more effort for the top!\n💡 Goal: Try using one productivity app" },
+            { minScore: 88, level: "Lv.550", title: "Consistent Turtle", img: "🏗️", desc: "Slow but sure! Consistency is your weapon.", detail: "Your persistence will shine someday.\n💡 Recommend: Write one line of gratitude journal daily" },
+            { minScore: 96, level: "Lv.600", title: "Action Planner", img: "📝", desc: "Evolving into J-type! Checklist maniac.", detail: "You enjoy the thrill of checking off tasks.\n💡 Next Step: Set weekly/monthly goals" },
+            { minScore: 104, level: "Lv.650", title: "Morning Routine Master", img: "☀️", desc: "The early bird gets... tired? No, successful!", detail: "He who conquers the morning conquers the day.\n💡 Mission: Challenge the Miracle Morning" },
+            { minScore: 112, level: "Lv.700", title: "Self-Improvement Geek", img: "📚", desc: "Growth is a hobby. Learning never ends.", detail: "Your attitude towards learning is cool.\n💡 Expand: Share what you learned on social media" },
+            { minScore: 120, level: "Lv.750", title: "Time Wizard", img: "⏳", desc: "Using 24 hours like 48 hours. Efficiency god.", detail: "Excellent time management skills!\n💡 Share: Teach your time management tips to friends" },
+            { minScore: 128, level: "Lv.800", title: "Pro God-saeng", img: "✨", desc: "Crazy form! Shining wherever you go.", detail: "You're positively influencing those around you.\n💡 Leadership: Lead a study group or meeting" },
+            { minScore: 136, level: "Lv.850", title: "Walking Self-Help Book", img: "📖", desc: "Every word is a quote. Walking wisdom.", detail: "Your life itself is a textbook for someone.\n💡 Record: Write essays or a memoir" },
+            { minScore: 144, level: "Lv.900", title: "God-saeng Idol", img: "🌟", desc: "A life that attracts followers. All eyes on you.", detail: "With great influence comes great responsibility.\n💡 Branding: Build your personal brand" },
+            { minScore: 152, level: "Lv.999", title: "Legendary Emperor", img: "👑", desc: "Productivity explodes just by breathing!", detail: "God-saeng itself. Is there any higher place?\n💡 Transcendence: Mentor juniors and donate talents" }
         ],
         faq: {
             title: "💡 Frequently Asked Questions (FAQ)",
@@ -488,26 +488,26 @@ const translations = {
             }
         ],
         results: [
-            {
-                minScore: 0, level: "Nv.1", title: "Maestro del Sofá", img: "😴",
-                desc: "Priorizas la 'comodidad' y 'relajación'.",
-                detail: "Tu 'poder productivo' necesita recargarse.\n💡 Intenta: Hacer la cama, beber 1L de agua"
-            },
-            {
-                minScore: 50, level: "Nv.30", title: "Motivado pero Inconsistente", img: "🐣",
-                desc: "¡Tu corazón está listo! La ejecución necesita trabajo.",
-                detail: "'Empezar es la mitad de la batalla' - eres tú.\n💡 Solución: Solo 3 metas diarias"
-            },
-            {
-                minScore: 100, level: "Nv.70", title: "Pro de Productividad Inteligente", img: "✨",
-                desc: "¡Conoces el equilibrio vida-trabajo!",
-                detail: "Pasas tus días eficientemente.\n💡 Impulso: Crea outputs, inicia proyectos paralelos"
-            },
-            {
-                minScore: 135, level: "Nv.999", title: "Emperador Legendario de Productividad", img: "👑",
-                desc: "¡Eres productivo solo respirando!",
-                detail: "¡Gestión perfecta!\n💡 Misión: Comparte tu conocimiento"
-            }
+            { minScore: 0, level: "Lv.1", title: "Recién Nacido God-saeng", img: "🍼", desc: "¡Goo-goo da-da! Acabas de abrir los ojos.", detail: "Bienvenido al mundo de la productividad.\n💡 Misión: ¡Estírate tan pronto como despiertes!" },
+            { minScore: 8, level: "Lv.50", title: "Fantasma de Cama", img: "🛌", desc: "Afuera es peligroso... ¡La comodidad es clave!", detail: "Estás conservando energía en este momento.\n💡 Misión: Escápate de la manta una vez al día" },
+            { minScore: 16, level: "Lv.100", title: "Monje de Tres Días", img: "⚡", desc: "Las resoluciones duran 3 segundos.", detail: "Lleno de motivación pero falta persistencia.\n💡 Consejo: ¡Empieza bebiendo agua en vez de grandes planes!" },
+            { minScore: 24, level: "Lv.150", title: "Perfeccionista Perezoso", img: "🤔", desc: "Planeando todo el día, terminando sin hacer nada.", detail: "Hecho es mejor que perfecto. ¡Solo empieza!\n💡 Solución: Deja de pensar y muévete en 5 segundos" },
+            { minScore: 32, level: "Lv.200", title: "Estética de la Lentitud", img: "🐢", desc: "¡Las tortugas también terminan la carrera!", detail: "Ir a tu propio ritmo es lo que importa.\n💡 Consejo: No te compares con los demás" },
+            { minScore: 40, level: "Lv.250", title: "Triunfador Intermitente", img: "🎢", desc: "Corre cuando se inspira, se detiene cuando no.", detail: "Un poco inconsistente. Necesitas rutina.\n💡 Misión: Mantén una sola rutina por 3 días" },
+            { minScore: 48, level: "Lv.300", title: "Superviviente", img: "🔥", desc: "Superpoderes activados justo antes del plazo.", detail: "¡Dios de estudiar a última hora! Sería perfecto antes.\n💡 Consejo: Fija tu 'plazo real' un día antes" },
+            { minScore: 56, level: "Lv.350", title: "El Catador", img: "🥄", desc: "Curioso por todo, comprometido con nada.", detail: "La experiencia es buena, pero se necesita profundidad.\n💡 Desafío: Mantén un hobby por más de un mes" },
+            { minScore: 64, level: "Lv.400", title: "Brote God-saeng", img: "🌱", desc: "Fotosíntesis... ¡Creciendo día a día!", detail: "Tu potencial de crecimiento es ilimitado.\n💡 Impulso: Empieza el día con afirmaciones positivas" },
+            { minScore: 72, level: "Lv.450", title: "Dolores de Crecimiento", img: "🩹", desc: "Sin dolor no hay ganancia.", detail: "¡El fracaso es la madre del éxito! No te rindas.\n💡 Consuelo: Elógiate por el trabajo duro de hoy" },
+            { minScore: 80, level: "Lv.500", title: "Terrícola Común", img: "🌍", desc: "Maestro del equilibrio vida-trabajo.", detail: "Estado más estable. ¡Un poco más de esfuerzo para la cima!\n💡 Meta: Intenta usar una app de productividad" },
+            { minScore: 88, level: "Lv.550", title: "Tortuga Constante", img: "🏗️", desc: "¡Lento pero seguro! La constancia es tu arma.", detail: "Tu persistencia brillará algún día.\n💡 Recomendación: Escribe una línea de gratitud diaria" },
+            { minScore: 96, level: "Lv.600", title: "Planificador de Acción", img: "📝", desc: "¡Evolucionando a tipo J! Maníaco de las listas.", detail: "Disfrutas la emoción de marcar tareas.\n💡 Siguiente Paso: Establece metas semanales/mensuales" },
+            { minScore: 104, level: "Lv.650", title: "Maestro Matutino", img: "☀️", desc: "¿El pájaro madrugador se cansa? ¡No, triunfa!", detail: "Quien conquista la mañana conquista el día.\n💡 Misión: Desafía el Milagro de la Mañana" },
+            { minScore: 112, level: "Lv.700", title: "Friki de Mejora Personal", img: "📚", desc: "El crecimiento es un hobby. El aprendizaje nunca termina.", detail: "Tu actitud hacia el aprendizaje es genial.\n💡 Expandir: Comparte lo aprendido en redes sociales" },
+            { minScore: 120, level: "Lv.750", title: "Mago del Tiempo", img: "⏳", desc: "Usando 24 horas como 48. Dios de la eficiencia.", detail: "¡Excelentes habilidades de gestión del tiempo!\n💡 Compartir: Enseña tus consejos a amigos" },
+            { minScore: 128, level: "Lv.800", title: "Pro God-saeng", img: "✨", desc: "¡Forma loca! Brillando donde quiera que vayas.", detail: "Influyes positivamente en quienes te rodean.\n💡 Liderazgo: Lidera un grupo de estudio" },
+            { minScore: 136, level: "Lv.850", title: "Libro Andante", img: "📖", desc: "Cada palabra es una cita. Sabiduría andante.", detail: "Tu vida misma es un libro de texto para alguien.\n💡 Grabar: Escribe ensayos o una memoria" },
+            { minScore: 144, level: "Lv.900", title: "Ídolo God-saeng", img: "🌟", desc: "Una vida que atrae seguidores.", detail: "Con gran influencia viene gran responsabilidad.\n💡 Marca: Construye tu marca personal" },
+            { minScore: 152, level: "Lv.999", title: "Emperador Legendario", img: "👑", desc: "¡La productividad explota solo con respirar!", detail: "God-saeng mismo. ¿Hay un lugar más alto?\n💡 Trascendencia: Mentorea a juniors y dona talentos" }
         ],
         faq: {
             title: "💡 Preguntas Frecuentes (FAQ)",
@@ -661,26 +661,26 @@ const translations = {
             }
         ],
         results: [
-            {
-                minScore: 0, level: "Cấp 1", title: "Bậc Thầy Nằm Sofa", img: "😴",
-                desc: "Bạn ưu tiên 'thoải mái' và 'thư giãn'.",
-                detail: "'Năng lượng năng suất' cần nạp lại.\n💡 Thử: Dọn giường, uống 1L nước"
-            },
-            {
-                minScore: 50, level: "Cấp 30", title: "Có Động Lực Nhưng Chưa Đều", img: "🐣",
-                desc: "Trái tim đã sẵn sàng! Thực hiện cần cải thiện.",
-                detail: "'Bắt đầu là nửa thành công'.\n💡 Giải pháp: Chỉ 3 mục tiêu/ngày"
-            },
-            {
-                minScore: 100, level: "Cấp 70", title: "Chuyên Gia Năng Suất Thông Minh", img: "✨",
-                desc: "Bạn hiểu cân bằng cuộc sống-công việc!",
-                detail: "Bạn sử dụng ngày hiệu quả.\n💡 Tăng tốc: Tạo output, bắt đầu dự án phụ"
-            },
-            {
-                minScore: 135, level: "Cấp 999", title: "Hoàng Đế Năng Suất Huyền Thoại", img: "👑",
-                desc: "Chỉ cần thở cũng năng suất!",
-                detail: "Quản lý hoàn hảo!\n💡 Nhiệm vụ: Chia sẻ bí quyết"
-            }
+            { minScore: 0, level: "Lv.1", title: "Sơ Sinh God-saeng", img: "🍼", desc: "Oa oa! Mới mở mắt thôi.", detail: "Chào mừng đến với thế giới năng suất.\n💡 Nhiệm vụ: Vương vai ngay khi thức dậy!" },
+            { minScore: 8, level: "Lv.50", title: "Hồn Ma Giường", img: "🛌", desc: "Ngoài kia nguy hiểm lắm... Thoải mái là nhất!", detail: "Bạn đang tích trữ năng lượng lúc này.\n💡 Nhiệm vụ: Thoát khỏi chăn một lần mỗi ngày" },
+            { minScore: 16, level: "Lv.100", title: "Nhà Sư Ba Ngày", img: "⚡", desc: "Quyết tâm kéo dài 3 giây. Bỏ cuộc tốc độ LTE.", detail: "Đầy động lực nhưng thiếu kiên trì.\n💡 Mẹo: Bắt đầu bằng 'uống nước' thay vì kế hoạch lớn!" },
+            { minScore: 24, level: "Lv.150", title: "Người Hoàn Hảo Lười Biếng", img: "🤔", desc: "Lên kế hoạch cả ngày, cuối cùng không làm gì.", detail: "Hoàn thành tốt hơn hoàn hảo. Cứ bắt đầu đi!\n💡 Giải pháp: Ngừng suy nghĩ và hành động trong 5 giây" },
+            { minScore: 32, level: "Lv.200", title: "Nghệ Thuật Chậm Rãi", img: "🐢", desc: "Rùa cũng về đích! Chậm cũng không sao.", detail: "Đi theo tốc độ của riêng bạn là điều quan trọng.\n💡 Lời khuyên: Đừng so sánh mình với người khác" },
+            { minScore: 40, level: "Lv.250", title: "Thành Đạt Ngắt Quãng", img: "🎢", desc: "Chạy khi có hứng, dừng khi chán.", detail: "Hơi thất thường. Bạn cần thói quen.\n💡 Nhiệm vụ: Duy trì đúng một thói quen trong 3 ngày" },
+            { minScore: 48, level: "Lv.300", title: "Người Sống Sót", img: "🔥", desc: "Siêu năng lực kích hoạt ngay trước deadline.", detail: "Thánh nước đến chân mới nhảy! Sẽ hoàn hảo nếu làm sớm hơn.\n💡 Mẹo: Đặt 'deadline thật' sớm hơn một ngày" },
+            { minScore: 56, level: "Lv.350", title: "Người Nếm Thử", img: "🥄", desc: "Tò mò mọi thứ, không cam kết gì.", detail: "Trải nghiệm thì tốt, nhưng cần chiều sâu.\n💡 Thử thách: Giữ một sở thích hơn một tháng" },
+            { minScore: 64, level: "Lv.400", title: "Mầm Non God-saeng", img: "🌱", desc: "Đang quang hợp... Lớn lên từng ngày!", detail: "Tiềm năng phát triển của bạn là vô hạn.\n💡 Tăng tốc: Bắt đầu ngày mới với những lời khẳng định tích cực" },
+            { minScore: 72, level: "Lv.450", title: "Đau Đớn Tăng Trưởng", img: "🩹", desc: "Không đau sao lớn. Đang trải qua thử sai.", detail: "Thất bại là mẹ thành công! Đừng bỏ cuộc.\n💡 An ủi: Tự khen ngợi bản thân vì đã vất vả hôm nay" },
+            { minScore: 80, level: "Lv.500", title: "Người Trái Đất Bình Thường", img: "🌍", desc: "Bậc thầy cân bằng công việc-cuộc sống.", detail: "Trạng thái ổn định nhất. Cố thêm chút nữa để lên top!\n💡 Mục tiêu: Thử dùng một ứng dụng năng suất" },
+            { minScore: 88, level: "Lv.550", title: "Rùa Kiên Trì", img: "🏗️", desc: "Chậm mà chắc! Kiên trì là vũ khí.", detail: "Sự bền bỉ của bạn sẽ tỏa sáng một ngày nào đó.\n💡 Đề xuất: Viết một dòng nhật ký biết ơn mỗi ngày" },
+            { minScore: 96, level: "Lv.600", title: "Người Lên Kế Hoạch", img: "📝", desc: "Tiến hóa thành người hệ J! Cuồng danh sách.", detail: "Bạn tận hưởng cảm giác gạch bỏ các đầu việc.\n💡 Bước tiếp theo: Đặt mục tiêu tuần/tháng" },
+            { minScore: 104, level: "Lv.650", title: "Bậc Thầy Buổi Sáng", img: "☀️", desc: "Dậy sớm để thành công!", detail: "Ai chinh phục buổi sáng sẽ chinh phục cả ngày.\n💡 Nhiệm vụ: Thử thách Miracle Morning" },
+            { minScore: 112, level: "Lv.700", title: "Mọt Sách Phát Triển", img: "📚", desc: "Phát triển là sở thích. Học tập không bao giờ dứt.", detail: "Thái độ học tập của bạn thật tuyệt.\n💡 Mở rộng: Chia sẻ những gì đã học lên mạng xã hội" },
+            { minScore: 120, level: "Lv.750", title: "Phù Thủy Thời Gian", img: "⏳", desc: "Dùng 24h như 48h. Thần hiệu suất.", detail: "Kỹ năng quản lý thời gian xuất sắc!\n💡 Chia sẻ: Dạy mẹo quản lý thời gian cho bạn bè" },
+            { minScore: 128, level: "Lv.800", title: "Pro God-saeng", img: "✨", desc: "Phong độ điên rồ! Tỏa sáng bất cứ đâu.", detail: "Bạn đang ảnh hưởng tích cực đến người xung quanh.\n💡 Lãnh đạo: Dẫn dắt một nhóm học tập" },
+            { minScore: 136, level: "Lv.850", title: "Sách Self-Help Biết Đi", img: "📖", desc: "Mỗi lời nói là danh ngôn. Trí tuệ sống.", detail: "Cuộc đời bạn chính là sách giáo khoa cho ai đó.\n💡 Ghi lại: Viết tản văn hoặc hồi ký" },
+            { minScore: 144, level: "Lv.900", title: "Idol God-saeng", img: "🌟", desc: "Cuộc sống thu hút người theo dõi.", detail: "Ảnh hưởng lớn đi kèm trách nhiệm lớn.\n💡 Thương hiệu: Xây dựng thương hiệu cá nhân" },
+            { minScore: 152, level: "Lv.999", title: "Hoàng Đế Huyền Thoại", img: "👑", desc: "Thở thôi cũng năng suất bùng nổ!", detail: "Chính là God-saeng. Còn nơi nào cao hơn không?\n💡 Siêu việt: Cố vấn cho đàn em và cống hiến tài năng" }
         ],
         faq: {
             title: "💡 Câu hỏi thường gặp (FAQ)",
@@ -834,26 +834,26 @@ const translations = {
             }
         ],
         results: [
-            {
-                minScore: 0, level: "Lv.1", title: "ベッドと一体化マスター", img: "😴",
-                desc: "「快適さ」と「リラックス」を最優先するタイプです。",
-                detail: "「充実力」は充電が必要な状態。\n💡 おすすめ：布団を畳む、水1L飲む"
-            },
-            {
-                minScore: 50, level: "Lv.30", title: "やる気満々三日坊主脱出者", img: "🐣",
-                desc: "心はすでに充実生活者！実践がもう少し。",
-                detail: "「始まりが半分」があなたにぴったり。\n💡 解決策：1日3つだけ決める"
-            },
-            {
-                minScore: 100, level: "Lv.70", title: "効率追求スマート充実者", img: "✨",
-                desc: "ワークライフバランスを知る達人！",
-                detail: "効率的に一日を過ごすあなた。\n💡 ブースト：アウトプットを作る、副業開始"
-            },
-            {
-                minScore: 135, level: "Lv.999", title: "伝説の充実皇帝", img: "👑",
-                desc: "息をするだけで生産性爆発！人間国宝級。",
-                detail: "自己管理、時間管理完璧！\n💡 ミッション：ノウハウを共有"
-            }
+            { minScore: 0, level: "Lv.1", title: "新生児ゴッド生", img: "🍼", desc: "オギャー！目が開いたばかり。", detail: "充実した生活の世界へようこそ。\n💡 ミッション：目が覚めたらすぐに伸びをする！" },
+            { minScore: 8, level: "Lv.50", title: "ベッドの地縛霊", img: "🛌", desc: "布団の外は危険…快適さが一番！", detail: "今はエネルギーを蓄えているところです。\n💡 ミッション：1日1回布団から脱出する" },
+            { minScore: 16, level: "Lv.100", title: "三日坊主マスター", img: "⚡", desc: "決心は3秒で終了。諦めもLTE級。", detail: "やる気は十分ですが持続力が足りません。\n💡 ヒント：壮大な計画の代わりに「水を飲む」ことから！" },
+            { minScore: 24, level: "Lv.150", title: "怠けた完璧主義者", img: "🤔", desc: "計画だけで一日終了。何もできず。", detail: "完璧でなくても大丈夫。とにかく始めましょう！\n💡 解決策：何も考えず5秒以内に体を動かす" },
+            { minScore: 32, level: "Lv.200", title: "スローの美学", img: "🐢", desc: "カメもゴッド生だ！ゆっくりでも大丈夫。", detail: "自分のペースで着実に進むことが重要です。\n💡 アドバイス：他人と比較しないこと" },
+            { minScore: 40, level: "Lv.250", title: "間欠的達成者", img: "🎢", desc: "気分が乗れば走り、そうでなければ止まる。", detail: "少し気まぐれですね。ルーティンが必要です。\n💡 ミッション：1つのルーティンだけを3日間守る" },
+            { minScore: 48, level: "Lv.300", title: "サバイバー", img: "🔥", desc: "締め切り直前に超能力を発揮。", detail: "一夜漬けの神！普段から少しずつやれば完璧なのに。\n💡 ヒント：「本当の締め切り」を1日前に設定する" },
+            { minScore: 56, level: "Lv.350", title: "味見マスター", img: "🥄", desc: "何でも興味はあるが、深くはコミットしない。", detail: "経験は良いですが、深さが必要です。\n💡 チャレンジ：1つの趣味を1ヶ月以上続ける" },
+            { minScore: 64, level: "Lv.400", title: "新芽ゴッド生", img: "🌱", desc: "光合成中…すくすく成長中！", detail: "あなたの成長の可能性は無限大です。\n💡 ブースト：ポジティブなアファメーションで一日を始める" },
+            { minScore: 72, level: "Lv.450", title: "成長痛", img: "🩹", desc: "痛いから青春だ。試行錯誤中。", detail: "失敗は成功の母！諦めないでください。\n💡 慰め：今日一日頑張った自分を褒める" },
+            { minScore: 80, level: "Lv.500", title: "平凡な地球人", img: "🌍", desc: "ワークライフバランスを知る達人。", detail: "最も安定した状態。あと少しの努力で上位圏へ！\n💡 目標：生産性アプリを1つ使ってみる" },
+            { minScore: 88, level: "Lv.550", title: "誠実なカメ", img: "🏗️", desc: "ゆっくりだけど確実に！着実さが武器。", detail: "あなたの粘り強さはいつか輝きを放ちます。\n💡 おすすめ：毎日感謝日記を一行書く" },
+            { minScore: 96, level: "Lv.600", title: "計画実践家", img: "📝", desc: "J型人間に進化中！チェックリストマニア。", detail: "計画したことを消していく快感を楽しんでいますね。\n💡 次のステップ：週間/月間目標を立てる" },
+            { minScore: 104, level: "Lv.650", title: "モーニングルーティンマスター", img: "☀️", desc: "早起きは三文の徳！朝を制する者が一日を制す。", detail: "朝の時間を支配する者が一日を支配します。\n💡 ミッション：ミラクルモーニングに挑戦" },
+            { minScore: 112, level: "Lv.700", title: "自己啓発オタク", img: "📚", desc: "成長が趣味であり特技。学びには終わりがない。", detail: "学ぶ姿勢が素晴らしいです。\n💡 拡張：学んだことをSNSで共有する" },
+            { minScore: 120, level: "Lv.750", title: "時間の魔法使い", img: "⏳", desc: "24時間を48時間のように使う効率の神。", detail: "時間管理能力が卓越しています！\n💡 共有：友達に時間管理のコツを教える" },
+            { minScore: 128, level: "Lv.800", title: "プロ・ゴッド生", img: "✨", desc: "フォーム維持！どこでも輝く存在。", detail: "周りの人に肯定的な影響を与えています。\n💡 リーダーシップ：スタディグループや集まりを主宰する" },
+            { minScore: 136, level: "Lv.850", title: "歩く自己啓発書", img: "📖", desc: "発する言葉が名言。人間名言製造機。", detail: "あなたの人生そのものが誰かの教科書です。\n💡 記録：エッセイや回顧録を書いてみる" },
+            { minScore: 144, level: "Lv.900", title: "ゴッド生アイドル", img: "🌟", desc: "フォロワーを呼ぶ人生。みんながあなたに注目。", detail: "影響力が大きいほど責任も伴うもの。\n💡 ブランディング：自分のブランドを作る" },
+            { minScore: 152, level: "Lv.999", title: "伝説の充実皇帝", img: "👑", desc: "息をするだけで生産性爆発！人間国宝級。", detail: "ゴッド生そのもの。これ以上高い場所は…あるでしょうか？\n💡 超越：後輩育成と才能寄付" }
         ],
         faq: {
             title: "💡 よくある質問 (FAQ)",
