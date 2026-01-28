@@ -163,19 +163,14 @@ const translations = {
                 detail: "자기관리, 시간관리 완벽!\n💡 미션: 노하우 공유, 갓생 리더 되기"
             }
         ],
-        articles: {
-            whatIs: {
-                title: "💡 갓생(God-saeng)이란?",
-                content: "'신(God)'과 '인생(Life)'을 합친 신조어로, 하루하루 계획적이고 부지런하게 살며 성취감을 느끼는 삶을 의미합니다. 거창한 성공보다는 소소한 습관 들이기—예를 들어 '아침에 이불 개기', '물 2리터 마시기'—부터 시작하는 것이 핵심입니다."
-            },
-            morningRoutine: {
-                title: "🚀 갓생 살기 위한 모닝 루틴 추천 BEST 3",
-                content: "<strong>1. 미라클 모닝 명상</strong><br>일어나자마자 5분간 명상을 하면 코르티솔 수치가 낮아지고 하루의 집중력이 높아집니다.<br><br><strong>2. 이부자리 정리</strong><br>사소해 보이지만, 하루의 첫 번째 과업을 달성했다는 성취감이 뇌를 긍정적으로 자극합니다.<br><br><strong>3. 투두리스트(To-Do List) 작성</strong><br>오늘 꼭 해야 할 일 3가지만 적어보세요. 우선순위가 명확해지면 실행력이 배가 됩니다."
-            },
-            productivityApps: {
-                title: "📱 생산성을 높여주는 필수 앱",
-                content: "뽀모도로 타이머, 노션(Notion), 혹은 간단한 습관 추적(Habit Tracker) 어플리케이션을 활용해보세요. 도구를 적절히 활용하면 의지력을 아낄 수 있습니다."
-            }
+        faq: {
+            title: "💡 자주 묻는 질문 (FAQ)",
+            items: [
+                { q: "Q. 갓생(God-saeng)이란 무엇인가요?", a: "'신(God)'과 '인생(Life)'을 합친 신조어로, 하루하루 계획적이고 부지런하게 살며 성취감을 느끼는 삶을 의미합니다. 거창한 성공보다는 소소한 습관 들이기—예를 들어 '아침에 이불 개기', '물 2리터 마시기'—부터 시작하는 것이 핵심입니다." },
+                { q: "Q. 갓생 능력치 테스트는 무엇인가요?", a: "여러분의 생활 습관과 마인드셋을 분석하여 현재의 '갓생력' 레벨을 진단해주는 심리 테스트입니다. MBTI 성격 유형 이론과 행동 심리학을 기반으로 재미있게 구성되었습니다." },
+                { q: "Q. 갓생 살기 위한 모닝 루틴 추천 BEST 3", a: "<strong>1. 미라클 모닝 명상:</strong> 일어나자마자 5분간 명상을 하면 코르티솔 수치가 낮아지고 하루의 집중력이 높아집니다.<br><strong>2. 이부자리 정리:</strong> 사소해 보이지만, 하루의 첫 번째 과업을 달성했다는 성취감이 뇌를 긍정적으로 자극합니다.<br><strong>3. 투두리스트(To-Do List) 작성:</strong> 오늘 꼭 해야 할 일 3가지만 적어보세요. 우선순위가 명확해지면 실행력이 배가 됩니다." },
+                { q: "Q. 생산성을 높여주는 필수 앱 추천", a: "뽀모도로 타이머, 노션(Notion), 혹은 간단한 습관 추적(Habit Tracker) 어플리케이션을 활용해보세요. 도구를 적절히 활용하면 의지력을 아낄 수 있습니다." }
+            ]
         }
     },
     en: {
@@ -341,19 +336,14 @@ const translations = {
                 detail: "Perfect self & time management!\n💡 Mission: Share your know-how, become a leader"
             }
         ],
-        articles: {
-            whatIs: {
-                title: "💡 What is 'God-saeng'?",
-                content: "A Korean slang combining 'God' and 'Life', meaning a life lived with daily planning and diligence, achieving a sense of accomplishment. The key is to start with small habits—like 'making your bed in the morning' or 'drinking 2 liters of water'—rather than grand goals."
-            },
-            morningRoutine: {
-                title: "🚀 Top 3 Morning Routines for a Productive Life",
-                content: "<strong>1. Miracle Morning Meditation</strong><br>5 minutes of meditation right after waking up can lower cortisol levels and boost focus for the day.<br><br><strong>2. Make Your Bed</strong><br>It may seem small, but completing your first task of the day stimulates your brain positively with a sense of achievement.<br><br><strong>3. Write a To-Do List</strong><br>Write just 3 must-do items for today. Clear priorities double your execution power."
-            },
-            productivityApps: {
-                title: "📱 Essential Apps for Productivity",
-                content: "Try using Pomodoro timers, Notion, or simple Habit Tracker apps. Using the right tools can save your willpower."
-            }
+        faq: {
+            title: "💡 Frequently Asked Questions (FAQ)",
+            items: [
+                { q: "Q. What is 'God-saeng'?", a: "It's a portmanteau of 'God' and 'Saeng' (Life), referring to a lifestyle focused on diligence, productivity, and small daily achievements. It's not about grand success, but about building positive habits like making your bed or drinking enough water." },
+                { q: "Q. What is the God-Life Level Test?", a: "It's a psychological test that analyzes your lifestyle patterns and mindset to diagnose your 'God-Life' (productivity) level. It's based on MBTI personality theories and behavioral psychology." },
+                { q: "Q. Best 3 Morning Routines for a Productive Day", a: "<strong>1. Miracle Morning Meditation:</strong> Meditating for 5 minutes right after waking up lowers cortisol and boosts focus.<br><strong>2. Making Your Bed:</strong> A small achievement that positively stimulates your brain for the day.<br><strong>3. To-Do List:</strong> Write down just 3 things you must do today. Prioritizing doubles your execution power." },
+                { q: "Q. Recommended Productivity Apps", a: "Try using Pomodoro timers, Notion, or simple Habit Trackers. Using the right tools can save your willpower." }
+            ]
         }
     },
     es: {
@@ -519,19 +509,14 @@ const translations = {
                 detail: "¡Gestión perfecta!\n💡 Misión: Comparte tu conocimiento"
             }
         ],
-        articles: {
-            whatIs: {
-                title: "💡 ¿Qué es 'God-saeng'?",
-                content: "Un término coreano que combina 'Dios' y 'Vida', que significa vivir cada día con planificación y diligencia, logrando una sensación de logro. La clave es empezar con pequeños hábitos—como 'hacer la cama por la mañana' o 'beber 2 litros de agua'—en lugar de grandes metas."
-            },
-            morningRoutine: {
-                title: "🚀 Las 3 Mejores Rutinas Matutinas para una Vida Productiva",
-                content: "<strong>1. Meditación Miracle Morning</strong><br>5 minutos de meditación al despertar pueden reducir los niveles de cortisol y aumentar la concentración.<br><br><strong>2. Hacer la Cama</strong><br>Puede parecer pequeño, pero completar tu primera tarea del día estimula tu cerebro positivamente.<br><br><strong>3. Escribir una Lista de Tareas</strong><br>Escribe solo 3 cosas que debes hacer hoy. Las prioridades claras duplican tu poder de ejecución."
-            },
-            productivityApps: {
-                title: "📱 Apps Esenciales para la Productividad",
-                content: "Prueba usar temporizadores Pomodoro, Notion o aplicaciones simples de seguimiento de hábitos. Usar las herramientas correctas puede ahorrar tu fuerza de voluntad."
-            }
+        faq: {
+            title: "💡 Preguntas Frecuentes (FAQ)",
+            items: [
+                { q: "Q. ¿Qué es 'God-saeng'?", a: "Es un acrónimo de 'God' (Dios) y 'Saeng' (Vida), que se refiere a un estilo de vida enfocado en la diligencia, productividad y pequeños logros diarios. Se trata de construir hábitos positivos como hacer la cama o beber suficiente agua." },
+                { q: "Q. ¿Qué es el Test de Nivel God-Life?", a: "Es un test psicológico que analiza tus patrones de estilo de vida y mentalidad para diagnosticar tu nivel de 'God-Life' (productividad). Se basa en teorías de personalidad MBTI y psicología conductual." },
+                { q: "Q. Las 3 Mejores Rutinas Matutinas", a: "<strong>1. Meditación Milagrosa:</strong> Meditar 5 minutos al despertar reduce el cortisol y aumenta la concentración.<br><strong>2. Hacer la cama:</strong> Un pequeño logro que estimula positivamente tu cerebro.<br><strong>3. Lista de Tareas:</strong> Escribe solo 3 cosas que debas hacer hoy. Priorizar duplica tu poder de ejecución." },
+                { q: "Q. Apps de Productividad Recomendadas", a: "Intenta usar temporizadores Pomodoro, Notion o rastreadores de hábitos simples. Usar las herramientas adecuadas puede ahorrar tu fuerza de voluntad." }
+            ]
         }
     },
     vi: {
@@ -697,19 +682,14 @@ const translations = {
                 detail: "Quản lý hoàn hảo!\n💡 Nhiệm vụ: Chia sẻ bí quyết"
             }
         ],
-        articles: {
-            whatIs: {
-                title: "💡 'God-saeng' là gì?",
-                content: "Một từ lóng Hàn Quốc kết hợp 'God' (Thần) và 'Life' (Cuộc sống), có nghĩa là sống mỗi ngày với kế hoạch và sự chăm chỉ, đạt được cảm giác thành tựu. Chìa khóa là bắt đầu với những thói quen nhỏ—như 'dọn giường vào buổi sáng' hoặc 'uống 2 lít nước'—thay vì những mục tiêu lớn."
-            },
-            morningRoutine: {
-                title: "🚀 Top 3 Thói Quen Buổi Sáng Cho Cuộc Sống Hiệu Quả",
-                content: "<strong>1. Thiền Miracle Morning</strong><br>5 phút thiền ngay sau khi thức dậy có thể giảm mức cortisol và tăng khả năng tập trung trong ngày.<br><br><strong>2. Dọn Giường</strong><br>Có vẻ nhỏ nhưng hoàn thành nhiệm vụ đầu tiên trong ngày kích thích não bộ tích cực với cảm giác thành tựu.<br><br><strong>3. Viết Danh Sách Công Việc</strong><br>Viết chỉ 3 việc phải làm hôm nay. Ưu tiên rõ ràng sẽ tăng gấp đôi năng lực thực hiện."
-            },
-            productivityApps: {
-                title: "📱 Ứng Dụng Cần Thiết Cho Năng Suất",
-                content: "Hãy thử sử dụng đồng hồ Pomodoro, Notion, hoặc ứng dụng theo dõi thói quen đơn giản. Sử dụng đúng công cụ có thể tiết kiệm ý chí của bạn."
-            }
+        faq: {
+            title: "💡 Câu hỏi thường gặp (FAQ)",
+            items: [
+                { q: "Q. 'God-saeng' là gì?", a: "Đây là từ ghép giữa 'God' (Thần) và 'Saeng' (Cuộc sống), chỉ một lối sống tập trung vào sự chăm chỉ, năng suất và những thành tựu nhỏ mỗi ngày. Nó bắt đầu từ những thói quen nhỏ như gập chăn màn hay uống đủ nước." },
+                { q: "Q. Bài kiểm tra God-Life là gì?", a: "Đây là bài trắc nghiệm tâm lý phân tích thói quen sống và tư duy để chẩn đoán cấp độ 'God-Life' của bạn. Nó dựa trên lý thuyết tính cách MBTI và tâm lý học hành vi." },
+                { q: "Q. Top 3 Thói quen buổi sáng", a: "<strong>1. Thiền buổi sáng:</strong> Thiền 5 phút ngay khi thức dậy giúp giảm cortisol và tăng sự tập trung.<br><strong>2. Dọn giường:</strong> Thành tựu nhỏ đầu ngày giúp kích thích não bộ tích cực.<br><strong>3. Viết To-Do List:</strong> Ghi ra 3 việc quan trọng nhất cần làm. Việc ưu tiên sẽ nhân đôi khả năng thực thi." },
+                { q: "Q. Ứng dụng năng suất được đề xuất", a: "Hãy thử dùng đồng hồ Pomodoro, Notion hoặc các ứng dụng theo dõi thói quen đơn giản. Sử dụng công cụ phù hợp sẽ giúp tiết kiệm ý chí của bạn." }
+            ]
         }
     },
     ja: {
@@ -875,19 +855,14 @@ const translations = {
                 detail: "自己管理、時間管理完璧！\n💡 ミッション：ノウハウを共有"
             }
         ],
-        articles: {
-            whatIs: {
-                title: "💡 「God-saeng」とは？",
-                content: "「God（神）」と「生活」を組み合わせた韓国のスラングで、毎日計画的で勤勉に生き、達成感を感じる生活を意味します。大きな目標よりも、「朝に布団を畳む」「水を2リットル飲む」などの小さな習慣から始めることがポイントです。"
-            },
-            morningRoutine: {
-                title: "🚀 充実した生活のためのモーニングルーティン TOP 3",
-                content: "<strong>1. ミラクルモーニング瞑想</strong><br>起きてすぐの5分間の瞑想は、コルチゾールレベルを下げ、一日の集中力を高めます。<br><br><strong>2. 布団を畳む</strong><br>小さなことに見えますが、一日の最初のタスクを完了することで、脳に達成感という良い刺激を与えます。<br><br><strong>3. To-Doリストを書く</strong><br>今日やるべきことを3つだけ書いてください。優先順位が明確になれば、実行力が2倍になります。"
-            },
-            productivityApps: {
-                title: "📱 生産性を高める必須アプリ",
-                content: "ポモドーロタイマー、Notion、またはシンプルな習慣トラッカーアプリを活用してみてください。適切なツールを使えば、意志力を節約できます。"
-            }
+        faq: {
+            title: "💡 よくある質問 (FAQ)",
+            items: [
+                { q: "Q. 갓생(God-saeng)とは？", a: "「God（神）」と「Saeng（人生）」を合わせた造語で、計画的かつ勤勉に生き、日々の小さな達成感を感じるライフスタイルを指します。ベッドメイキングや水を飲むといった小さな習慣から始めることが鍵です。" },
+                { q: "Q. 갓생能力値テストとは？", a: "あなたの生活習慣やマインドセットを分析し、現在の「갓생力（生産性）」レベルを診断する心理テストです。MBTI性格理論や行動心理学に基づいています。" },
+                { q: "Q. おすすめのモーニングルーティンBEST 3", a: "<strong>1. ミラクルモーニング瞑想：</strong> 起床直後の5分間の瞑想はコルチゾールを下げ、集中力を高めます。<br><strong>2. ベッドメイキング：</strong> 小さな達成感が脳を肯定的に刺激します。<br><strong>3. To-Doリスト作成：</strong> 今日やるべき3つのことだけを書き出しましょう。優先順位が明確になれば実行力が倍増します。" },
+                { q: "Q. 生産性を高める必須アプリ", a: "ポモドーロタイマー、Notion、またはシンプルな習慣トラッカーアプリを活用してみてください。ツールを適切に使えば、意志力を節約できます。" }
+            ]
         }
     }
 };
@@ -927,19 +902,21 @@ function updateUI() {
     if (buttons[1]) buttons[1].textContent = t.restartBtn;
 
     // 아티클 섹션 업데이트
-    if (t.articles) {
-        const articleCards = document.querySelectorAll('.article-card');
-        if (articleCards[0]) {
-            articleCards[0].querySelector('h2').innerHTML = t.articles.whatIs.title;
-            articleCards[0].querySelector('p').innerHTML = t.articles.whatIs.content;
-        }
-        if (articleCards[1]) {
-            articleCards[1].querySelector('h2').innerHTML = t.articles.morningRoutine.title;
-            articleCards[1].querySelector('p').innerHTML = t.articles.morningRoutine.content;
-        }
-        if (articleCards[2]) {
-            articleCards[2].querySelector('h2').innerHTML = t.articles.productivityApps.title;
-            articleCards[2].querySelector('p').innerHTML = t.articles.productivityApps.content;
+    // FAQ 섹션 업데이트
+    if (t.faq) {
+        const faqTitle = document.querySelector('.faq-section h2');
+        if (faqTitle) faqTitle.textContent = t.faq.title;
+
+        const faqItems = document.querySelectorAll('.faq-item');
+        if (t.faq.items) {
+            t.faq.items.forEach((item, index) => {
+                if (faqItems[index]) {
+                    const qEl = faqItems[index].querySelector('.faq-question');
+                    const aEl = faqItems[index].querySelector('.faq-answer');
+                    if (qEl) qEl.textContent = item.q;
+                    if (aEl) aEl.innerHTML = item.a;
+                }
+            });
         }
     }
 
